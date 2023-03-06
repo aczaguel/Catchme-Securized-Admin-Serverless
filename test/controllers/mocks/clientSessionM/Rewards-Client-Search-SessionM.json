@@ -1,0 +1,266 @@
+{
+  "mock": {
+    "_id": "61bce24ba117690009bad2ad",
+    "firstName": "Pruebas3",
+    "lastName": "P3",
+    "birthdate": "1999-06-05",
+    "gender": "Female",
+    "email": "qaabinbev@gmail.com",
+    "phoneNumber": "+17197455419",
+    "zipcode": "20895",
+    "advertisement": false,
+    "termsAndConditions": [
+      {
+        "platform": "Rewards_USA",
+        "subplatform": "MyCooler",
+        "url": "https://www.mycooler.com/en/terms-conditions.html",
+        "status": true,
+        "date": "17/12/2021 13:17:28"
+      }
+    ],
+    "privacy_policy": true,
+    "origin": "web",
+    "country": "USA",
+    "platform": "Rewards_USA",
+    "migration_tier": "NA",
+    "migration_points": 0,
+    "origin_platform_type": "Rewards_USA",
+    "rewards_platform_id": "Rewards_USA",
+    "rewards_program_id": "MyCooler",
+    "signup_campaign": "NA",
+    "registration_device_id": "6dd128e4-3b55-46a0-a3c0-e3cb281b50b9",
+    "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+    "registration_device_platform": "Win32",
+    "registration_device_os": "Windows",
+    "is_active": true,
+    "origin_product_OwnerId": "Rewards_USA",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+    "origin_url": "https://qa.d3slzse12beigl.amplifyapp.com/signup?code=PRUEBAS2P-941C3B",
+    "program": "MyCooler",
+    "locale": "en-US",
+    "state": "Maryland",
+    "city": "Kensington",
+    "user_id_sessionm": "fc6ecb4a-5f6d-11ec-8ded-bbba2fd135b9",
+    "referrer_code": "PRUEBAS3P-417527",
+    "referred_code": true,
+    "verified": true,
+    "onboarding": false,
+    "user": "qaabinbev@gmail.com",
+    "referred_code_date": "17/12/2021 13:17:57",
+    "skin_referred_code": false
+  },
+  "APIResponse": {
+    "statusCode": 200,
+    "body": {
+      "status": "ok",
+      "user": {
+        "id": "fc6ecb4a-5f6d-11ec-8ded-bbba2fd135b9",
+        "external_id": "61bce24ba117690009bad2ad",
+        "opted_in": true,
+        "activated": false,
+        "proxy_ids": [],
+        "available_points": 1969,
+        "test_points": 0,
+        "unclaimed_achievement_count": 0,
+        "email": "qaabinbev@gmail.com",
+        "dob": "1999-06-05",
+        "created_at": "2021-12-17 19:17:33",
+        "updated_at": "2022-01-20 17:25:36",
+        "city": "Kensington",
+        "zip": "20895",
+        "dma": "511",
+        "state": "MD",
+        "country": "USA",
+        "locale": "en-us",
+        "suspended": false,
+        "last_name": "P3",
+        "first_name": "Pruebas3",
+        "registered_at": "2021-12-17 19:17:33",
+        "profile_photo_url": "/images/account-neutral.png",
+        "test_account": false,
+        "account_status": "good",
+        "tier": "Gold",
+        "tier_system": "[ABI][US]",
+        "tier_points": 4330,
+        "next_tier_points": 0,
+        "tier_ends_value": 0,
+        "tier_entered_at": "2022-01-13 15:20:05",
+        "tier_resets_at": "2023-01-13 15:20:05",
+        "maintenance_required_points": 670,
+        "maintenance_points": 5000,
+        "tier_details": {
+          "tier_levels": [
+            {
+              "id": "99b1ed70-3529-473b-90e5-e58ec0a2ac55",
+              "tier_system_id": "ebee7981-4aa5-4ee0-b691-84c340833038",
+              "tier_level_id": "e689bb76-ee9c-4d3b-9dcc-66fcba88c40b",
+              "user_id": "fc6ecb4a-5f6d-11ec-8ded-bbba2fd135b9",
+              "join_date": "2022-01-13T15:20:05.847",
+              "tier_overview": {
+                "id": "e689bb76-ee9c-4d3b-9dcc-66fcba88c40b",
+                "tier_system_id": "ebee7981-4aa5-4ee0-b691-84c340833038",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Gold",
+                "rank": 1,
+                "status": 2
+              }
+            }
+          ],
+          "point_account_balances": {
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "user_id": "fc6ecb4a-5f6d-11ec-8ded-bbba2fd135b9",
+            "summary": {
+              "total_points": 6299,
+              "life_time_points": 20068
+            },
+            "details": [
+              {
+                "account_name": "Spendable - Final",
+                "user_point_account_id": "9d31e491-0190-4c05-be08-bb53d7fac042",
+                "point_account_id": "30524139-7e47-4a6b-9306-21b50b2dc161",
+                "grouping_label": "Spend",
+                "available_balance": 1949,
+                "life_time_value": 6106
+              },
+              {
+                "account_name": "Tier - Final",
+                "user_point_account_id": "6df9eb62-eb93-451d-b4a6-6b8f5feedad7",
+                "point_account_id": "f81cc4c0-8e97-4846-be51-3a50154275e5",
+                "grouping_label": "Tier",
+                "available_balance": 4310,
+                "life_time_value": 4310
+              },
+              {
+                "account_name": "Spendable - Other Monthly",
+                "user_point_account_id": "fdc67e91-7070-4ed2-a929-7a21c16adc84",
+                "point_account_id": "4b163f8e-ee6e-407a-b78f-44e75b4f3256",
+                "grouping_label": "Spend",
+                "available_balance": 20,
+                "life_time_value": 2655
+              },
+              {
+                "account_name": "Tier - Other Monthly",
+                "user_point_account_id": "cafa2243-01f6-456e-bd94-eb0742ecb981",
+                "point_account_id": "76c953fe-fc50-41d6-b7a9-53ee0f3d0f5b",
+                "grouping_label": "Tier",
+                "available_balance": 20,
+                "life_time_value": 2330
+              },
+              {
+                "account_name": "Spendable - Receipt Uploads Monthly",
+                "user_point_account_id": "1d155d24-5521-4770-9c32-bf353332ecf5",
+                "point_account_id": "3024905a-fcfe-4b70-a15c-54ac71e1a693",
+                "grouping_label": "Spend",
+                "available_balance": 0,
+                "life_time_value": 2667
+              },
+              {
+                "account_name": "Tier - Receipt Uploads Monthly",
+                "user_point_account_id": "3d4b8e46-adbb-443c-ae01-d9a79b3701ea",
+                "point_account_id": "6a3e5c60-077c-4f4d-8dcc-bab7f5c845bf",
+                "grouping_label": "Tier",
+                "available_balance": 0,
+                "life_time_value": 2000
+              },
+              {
+                "account_name": "Invite a Friend Monthly Tracker",
+                "user_point_account_id": "",
+                "point_account_id": "be04149c-0af3-46d8-914e-fbd77d42bede",
+                "grouping_label": "",
+                "available_balance": 0,
+                "life_time_value": 0
+              }
+            ]
+          }
+        },
+        "referrer_code": "PRUEBAS3P-417527",
+        "phone_numbers": [
+          {
+            "phone_number": "17197455419",
+            "phone_type": "mobile",
+            "preference_flags": [
+              "primary"
+            ],
+            "verified_ownership": false
+          }
+        ]
+      }
+    }
+  },
+  "mockWithoutHeaders": {
+    "_id": "61bce24ba117690009bad2ad",
+    "firstName": "Pruebas3",
+    "lastName": "P3",
+    "birthdate": "1999-06-05",
+    "gender": "Female",
+    "email": "qaabinbev@gmail.com",
+    "phoneNumber": "+17197455419",
+    "zipcode": "20895",
+    "advertisement": false,
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "70cec0ed-5d7e-42f0-b3e0-f13433681dde",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b5e-437384ec772b2a4c5172965e",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "termsAndConditions": [
+      {
+        "platform": "Rewards_USA",
+        "subplatform": "MyCooler",
+        "url": "https://www.mycooler.com/en/terms-conditions.html",
+        "status": true,
+        "date": "17/12/2021 13:17:28"
+      }
+    ],
+    "privacy_policy": true,
+    "origin": "web",
+    "country": "USA",
+    "platform": "Rewards_USA",
+    "migration_tier": "NA",
+    "migration_points": 0,
+    "origin_platform_type": "Rewards_USA",
+    "rewards_platform_id": "Rewards_USA",
+    "rewards_program_id": "MyCooler",
+    "signup_campaign": "NA",
+    "registration_device_id": "6dd128e4-3b55-46a0-a3c0-e3cb281b50b9",
+    "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+    "registration_device_platform": "Win32",
+    "registration_device_os": "Windows",
+    "is_active": true,
+    "origin_product_OwnerId": "Rewards_USA",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+    "origin_url": "https://qa.d3slzse12beigl.amplifyapp.com/signup?code=PRUEBAS2P-941C3B",
+    "program": "MyCooler",
+    "locale": "en-US",
+    "state": "Maryland",
+    "city": "Kensington",
+    "user_id_sessionm": "fc6ecb4a-5f6d-11ec-8ded-bbba2fd135b9",
+    "referrer_code": "PRUEBAS3P-417527",
+    "referred_code": true,
+    "verified": true,
+    "onboarding": false,
+    "user": "qaabinbev@gmail.com",
+    "referred_code_date": "17/12/2021 13:17:57",
+    "skin_referred_code": false,
+    "body": "{\n      \"firstName\": \"Maria\",\n      \"lastName\": \"Paz \",\n      \"birthdate\": \"1985-01-26\",\n      \"gender\": \"Female\",\n      \"email\": \"johanaandregil@gmail.com\",\n      \"password\": \"Enero2022\",\n      \"phoneNumber\": \"+573113632174\",\n      \"zipcode\": \"01001\",\n      \"advertisement\": true,\n      \"termsAndConditions\": {\n        \"platform\": \"Rewards_USA\",\n        \"subplatform\": \"MyCooler\"\n      },\n      \"origin\": \"web\",\n      \"country\": \"USA\",\n      \"platform\": \"Rewards_USA\",\n      \"migration_tier\": \"NA\",\n      \"migration_points\": 0,\n      \"origin_platform_type\": \"Rewards_USA\",\n      \"rewards_platform_id\": \"Rewards_USA\",\n      \"rewards_program_id\": \"MyCooler\",\n      \"signup_campaign\": \"NA\",\n      \"registration_device_id\": \"ab4d4c49-0d53-48c8-9e90-182a8a9cb9c8\",\n      \"registration_device_model\": \"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36\",\n      \"registration_device_platform\": \"Win32\",\n      \"registration_device_os\": \"Windows\",\n      \"is_active\": true,\n      \"origin_product_OwnerId\": \"Rewards_USA\",\n      \"agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36\",\n      \"origin_url\": \"https://qa-mycooler.abi-rewards.de/signup\",\n      \"program\": \"MyCooler\",\n      \"locale\": \"en-US\",\n      \"create_sso\": true,\n      \"state\": \"Massachusetts\",\n      \"city\": \"Agawam\",\n      \"user_id_sessionm\": \"\",\n      \"referrer_code\": \"\",\n      \"referred_code\": false,\n      \"verified\": false,\n      \"onboarding\": false,\n      \"user\": \"johanaandregil@gmail.com\"\n    }"
+  },
+  "APIErrorMock": {
+    "statusCode": 500,
+    "body": {
+      "status": "error",
+      "errors": {
+        "code": "internal_server_error",
+        "message": "internal server error"
+      }
+    }
+  }
+}

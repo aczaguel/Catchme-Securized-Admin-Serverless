@@ -1,0 +1,986 @@
+{
+  "mock": {
+    "firstName": "Automation",
+    "lastName": "Test",
+    "birthdate": "1996-05-11",
+    "gender": "Female",
+    "email": "tauntinks@gmail.com",
+    "phoneNumber": "+11235698750",
+    "zipcode": "01001",
+    "advertisement": true,
+    "termsAndConditions": [
+      {
+        "platform": "Rewards_USA",
+        "subplatform": "MyCooler",
+        "url": "https://www.mycooler.com/en/terms-conditions.html",
+        "status": true,
+        "date": "2/2/2022 7:28:22"
+      }
+    ],
+    "origin": "web",
+    "country": "USA",
+    "platform": "Rewards_USA",
+    "migration_tier": "NA",
+    "migration_points": 0,
+    "origin_platform_type": "Rewards_USA",
+    "rewards_platform_id": "Rewards_USA",
+    "rewards_program_id": "MyCooler",
+    "signup_campaign": "NA",
+    "registration_device_id": "6c089080-c639-4efa-82dc-a3cd12064514",
+    "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+    "registration_device_platform": "Win32",
+    "registration_device_os": "Windows",
+    "is_active": true,
+    "origin_product_OwnerId": "Rewards_USA",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+    "origin_url": "https://qa-mycooler.abi-rewards.de/signup",
+    "program": "MyCooler",
+    "locale": "en-US",
+    "state": "Massachusetts",
+    "city": "Agawam",
+    "user_id_sessionm": "",
+    "referrer_code": "",
+    "referred_code": false,
+    "verified": false,
+    "onboarding": false,
+    "user": "tauntinks@gmail.com",
+    "create_date": "2/2/2022 7:28:26",
+    "_id": "61fa86fa5eafb900097b6dc5"
+  },
+  "mockIdError": {
+    "firstName": "Automation",
+    "lastName": "Test",
+    "birthdate": "1996-05-11",
+    "gender": "Female",
+    "email": "tauntinks@gmail.com",
+    "phoneNumber": "+11235698750",
+    "zipcode": "01001",
+    "advertisement": true,
+    "id_error": "sadfasdftest",
+    "termsAndConditions": [
+      {
+        "platform": "Rewards_USA",
+        "subplatform": "MyCooler",
+        "url": "https://www.mycooler.com/en/terms-conditions.html",
+        "status": true,
+        "date": "2/2/2022 7:28:22"
+      }
+    ],
+    "origin": "web",
+    "country": "USA",
+    "platform": "Rewards_USA",
+    "migration_tier": "NA",
+    "migration_points": 0,
+    "origin_platform_type": "Rewards_USA",
+    "rewards_platform_id": "Rewards_USA",
+    "rewards_program_id": "MyCooler",
+    "signup_campaign": "NA",
+    "registration_device_id": "6c089080-c639-4efa-82dc-a3cd12064514",
+    "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+    "registration_device_platform": "Win32",
+    "registration_device_os": "Windows",
+    "is_active": true,
+    "origin_product_OwnerId": "Rewards_USA",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+    "origin_url": "https://qa-mycooler.abi-rewards.de/signup",
+    "program": "MyCooler",
+    "locale": "en-US",
+    "state": "Massachusetts",
+    "city": "Agawam",
+    "user_id_sessionm": "",
+    "referrer_code": "",
+    "referred_code": false,
+    "verified": false,
+    "onboarding": false,
+    "user": "tauntinks@gmail.com",
+    "create_date": "2/2/2022 7:28:26",
+    "_id": "61fa86fa5eafb900097b6dc5"
+  },
+  "mockWithHeaders": {
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "70cec0ed-5d7e-42f0-b3e0-f13433681dde",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b5e-437384ec772b2a4c5172965e",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+   "body": "{\"firstName\": \"Automation\", \"lastName\": \"Test\",\"birthdate\": \"1996-05-11\",   \"gender\": \"Female\",   \"email\": \"tauntinks@gmail.com\",   \"phoneNumber\": \"+11235698750\",   \"zipcode\": \"01001\",   \"advertisement\": true,   \"id_error\": \"sadfasdftest\",   \"termsAndConditions\": [     {       \"platform\": \"Rewards_USA\",       \"subplatform\": \"MyCooler\",       \"url\": \"https://www.mycooler.com/en/terms-conditions.html\",       \"status\": true,       \"date\": \"2/2/2022 7:28:22\"     }   ],   \"origin\": \"web\",   \"country\": \"USA\",   \"platform\": \"Rewards_USA\",   \"migration_tier\": \"NA\",   \"migration_points\": 0,   \"origin_platform_type\": \"Rewards_USA\",   \"rewards_platform_id\": \"Rewards_USA\",   \"rewards_program_id\": \"MyCooler\",   \"signup_campaign\": \"NA\",   \"registration_device_id\": \"6c089080-c639-4efa-82dc-a3cd12064514\",   \"registration_device_model\": \"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36\",   \"registration_device_platform\": \"Win32\",   \"registration_device_os\": \"Windows\",   \"is_active\": true,   \"origin_product_OwnerId\": \"Rewards_USA\",   \"agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36\",   \"origin_url\": \"https://qa-mycooler.abi-rewards.de/signup\",   \"program\": \"MyCooler\",   \"locale\": \"en-US\",   \"state\": \"Massachusetts\",   \"city\": \"Agawam\",   \"user_id_sessionm\": \"\",   \"referrer_code\": \"\",   \"referred_code\": false,   \"verified\": false,   \"onboarding\": false,   \"user\": \"tauntinks@gmail.com\",   \"create_date\": \"2/2/2022 7:28:26\",   \"_id\": \"61fa86fa5eafb900097b6dc5\"}"
+  },
+  "results": [
+    {
+      "_id": "61fa86fa5eafb900097b6dc5",
+      "firstName": "Automation",
+      "lastName": "Test",
+      "birthdate": "1996-05-11",
+      "gender": "Female",
+      "email": "tauntinks@gmail.com",
+      "phoneNumber": "+11235698750",
+      "zipcode": "01001",
+      "advertisement": true,
+      "termsAndConditions": [
+        [
+          "Object"
+        ]
+      ],
+      "origin": "web",
+      "country": "USA",
+      "platform": "Rewards_USA",
+      "migration_tier": "NA",
+      "migration_points": 0,
+      "origin_platform_type": "Rewards_USA",
+      "rewards_platform_id": "Rewards_USA",
+      "rewards_program_id": "MyCooler",
+      "signup_campaign": "NA",
+      "registration_device_id": "6c089080-c639-4efa-82dc-a3cd12064514",
+      "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+      "registration_device_platform": "Win32",
+      "registration_device_os": "Windows",
+      "is_active": true,
+      "origin_product_OwnerId": "Rewards_USA",
+      "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+      "origin_url": "https://qa-mycooler.abi-rewards.de/signup",
+      "program": "MyCooler",
+      "locale": "en-US",
+      "state": "Massachusetts",
+      "city": "Agawam",
+      "user_id_sessionm": "",
+      "referrer_code": "",
+      "referred_code": false,
+      "verified": false,
+      "onboarding": false,
+      "user": "tauntinks@gmail.com",
+      "create_date": "2/2/2022 7:28:26"
+    }
+  ],
+  "APIFirstRequest": {
+    "url": "undefinedprocess.1324",
+    "method": "POST",
+    "data": {
+      "user": {
+        "opted_in": true,
+        "email": "tauntinks@gmail.com",
+        "first_name": "Automation",
+        "last_name": "Test",
+        "dob": "1996-05-11",
+        "city": "Agawam",
+        "locale": "en-US",
+        "state": "Massachusetts",
+        "zip": "01001",
+        "country": "USA",
+        "phone_numbers": [
+          {
+            "phone_number": "11235698750",
+            "phone_type": "mobile",
+            "preference_flags": [
+              "primary"
+            ]
+          }
+        ],
+        "identifiers": [
+          {
+            "external_id": "61fa86fa5eafb900097b6dc5",
+            "external_id_type": "Rewards_USA"
+          },
+          {
+            "external_id": "tauntinks_gmail.com",
+            "external_id_type": "SSO Global"
+          }
+        ]
+      }
+    },
+    "auth": {
+      "username": "1324",
+      "password": "aef34513ef"
+    }
+  },
+  "APIFirstResponse": {
+    "statusCode": 200,
+    "body": {
+      "status": "ok",
+      "user": {
+        "id": "01b87b04-842c-11ec-979b-13619444e795",
+        "external_id": "61fa86fa5eafb900097b6dc5",
+        "opted_in": true,
+        "activated": false,
+        "proxy_ids": [],
+        "identifiers": [
+          {
+            "external_id": "61fa86fa5eafb900097b6dc5",
+            "external_id_type": "Rewards_USA"
+          },
+          {
+            "external_id": "tauntinks_gmail.com",
+            "external_id_type": "SSO Global"
+          }
+        ],
+        "available_points": 0,
+        "test_points": 0,
+        "unclaimed_achievement_count": 0,
+        "email": "tauntinks@gmail.com",
+        "dob": "1996-05-11",
+        "created_at": "2022-02-02 13:28:28",
+        "updated_at": "2022-02-02 13:28:28",
+        "city": "Agawam",
+        "zip": "01001",
+        "dma": "543",
+        "state": "MA",
+        "country": "USA",
+        "locale": "en-us",
+        "suspended": false,
+        "last_name": "Test",
+        "first_name": "Automation",
+        "registered_at": "2022-02-02 13:28:28",
+        "profile_photo_url": "/images/account-neutral.png",
+        "test_account": false,
+        "account_status": "good",
+        "tier": "Silver",
+        "tier_system": "[ABI][US]",
+        "tier_points": 0,
+        "next_tier_points": 1000,
+        "tier_ends_value": 1000,
+        "tier_entered_at": "2022-02-02 13:28:28",
+        "tier_resets_at": "2023-02-02 13:28:28",
+        "referrer_code": "AUTOMATIONT-CA9F80",
+        "phone_numbers": [
+          {
+            "phone_number": "11235698750",
+            "phone_type": "mobile",
+            "preference_flags": [
+              "primary"
+            ],
+            "verified_ownership": false
+          }
+        ]
+      }
+    }
+  },
+  "APISecondRequest": {
+    "url": "https://api-abinbev.stg-sessionm.com/priv/v1/apps/5400da217e962abc2d8dcd2d518606f3d0b1390f/users/f3365bba-8461-11ec-82e5-598f9444e795/models/user_profile",
+    "method": "POST",
+    "data": {
+      "user_profile": {
+        "origin_product_OwnerId": "Rewards_USA",
+        "origin_platform_type": "Rewards_USA",
+        "origin_url": "https://qa-mycooler.abi-rewards.de/signup",
+        "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+        "rewards_platform_id": "Rewards_USA",
+        "terms_conditions": true,
+        "migration_tier": "NA",
+        "migration_points": 0,
+        "rewards_program_id": "32bc77c7-d140-46c1-b966-486b8d19107b",
+        "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+        "registration_device_platform": "Win32",
+        "registration_device_os": "Windows",
+        "is_active": true
+      }
+    },
+    "auth": {
+      "username": "5400da217e962abc2d8dcd2d518606f3d0b1390f",
+      "password": "c0dce364e33aa25a0d6d3e7033977cbc9e92055a"
+    }
+  },
+  "APISecondResponse": {
+    "statusCode": 200,
+    "body": {
+      "status": "ok",
+      "user_profile": {
+        "_version": 1,
+        "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+        "terms_conditions": true,
+        "origin_product_OwnerId": "Rewards_USA",
+        "origin_platform_type": "Rewards_USA",
+        "origin_url": "https://qa-mycooler.abi-rewards.de/signup",
+        "rewards_platform_id": "Rewards_USA",
+        "migration_tier": "NA",
+        "migration_points": 0,
+        "rewards_program_id": "32bc77c7-d140-46c1-b966-486b8d19107b",
+        "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+        "registration_device_platform": "Win32",
+        "registration_device_os": "Windows",
+        "is_active": true
+      }
+    }
+  },
+  "APIThirdRequest": {
+    "url": "undefinedprocess.01b87b04-842c-11ec-979b-13619444e795.1324",
+    "method": "GET",
+    "auth": {
+      "username": "1324",
+      "password": "aef34513ef"
+    }
+  },
+  "APIThirdResponse": {
+    "statusCode": 200,
+    "body": {
+      "status": "ok",
+      "user": {
+        "id": "f3365bba-8461-11ec-82e5-598f9444e795",
+        "external_id": "61fae17b34bc6000098bc3ad",
+        "opted_in": true,
+        "activated": false,
+        "proxy_ids": [],
+        "identifiers": [
+          {
+            "external_id": "61fae17b34bc6000098bc3ad",
+            "external_id_type": "Rewards_USA"
+          },
+          {
+            "external_id": "robert.mcelroy_anheuser-busch.com",
+            "external_id_type": "SSO Global"
+          }
+        ],
+        "available_points": 0,
+        "test_points": 0,
+        "unclaimed_achievement_count": 0,
+        "email": "robert.mcelroy@anheuser-busch.com",
+        "dob": "1987-07-20",
+        "created_at": "2022-02-02 19:54:36",
+        "updated_at": "2022-02-02 19:54:36",
+        "city": "Astoria",
+        "zip": "11102",
+        "dma": "501",
+        "state": "NY",
+        "country": "USA",
+        "locale": "en-us",
+        "suspended": false,
+        "last_name": "McElroy",
+        "first_name": "rOBERT",
+        "registered_at": "2022-02-02 19:54:36",
+        "profile_photo_url": "/images/account-neutral.png",
+        "test_account": false,
+        "account_status": "good",
+        "tier": "Silver",
+        "tier_system": "[ABI][US]",
+        "tier_points": 0,
+        "next_tier_points": 1000,
+        "tier_ends_value": 1000,
+        "tier_entered_at": "2022-02-02 19:54:37",
+        "tier_resets_at": "2023-02-02 19:54:37",
+        "tier_details": {
+          "tier_levels": [
+            {
+              "id": "c69ff4ad-3588-4d12-b343-1245d43c5c8f",
+              "tier_system_id": "ebee7981-4aa5-4ee0-b691-84c340833038",
+              "tier_level_id": "04f1be72-f36c-4ddc-a6a8-d2256d596a07",
+              "user_id": "f3365bba-8461-11ec-82e5-598f9444e795",
+              "join_date": "2022-02-02T19:54:37",
+              "tier_overview": {
+                "id": "04f1be72-f36c-4ddc-a6a8-d2256d596a07",
+                "tier_system_id": "ebee7981-4aa5-4ee0-b691-84c340833038",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Silver",
+                "rank": 0,
+                "status": 2
+              },
+              "next_tier_overview": {
+                "id": "e689bb76-ee9c-4d3b-9dcc-66fcba88c40b",
+                "tier_system_id": "ebee7981-4aa5-4ee0-b691-84c340833038",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Gold",
+                "rank": 1,
+                "status": 2
+              },
+              "tier_progress": [
+                {
+                  "rule_tree_id": "93123d27-b706-4780-acf9-067ade89be02",
+                  "rules": [
+                    {
+                      "query_result": 0,
+                      "rule_id": "9a7eb64d-7f12-4f33-a59d-552a1b9f38c0",
+                      "parent_id": "f3f8462e-bc6c-43fe-84c5-9fbe86bf93b8",
+                      "tree_id": "93123d27-b706-4780-acf9-067ade89be02",
+                      "rule_passed": false,
+                      "rule": {
+                        "discriminator": 2048,
+                        "target_balance": 1000,
+                        "comparison": 4,
+                        "id": "9a7eb64d-7f12-4f33-a59d-552a1b9f38c0",
+                        "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                        "parent_id": "f3f8462e-bc6c-43fe-84c5-9fbe86bf93b8",
+                        "rank": 0,
+                        "is_new": false,
+                        "constraints": [
+                          {
+                            "discriminator": 8,
+                            "point_accounts": {
+                              "f81cc4c0-8e97-4846-be51-3a50154275e5": "Tier - Final",
+                              "76c953fe-fc50-41d6-b7a9-53ee0f3d0f5b": "Tier - Other Monthly",
+                              "6a3e5c60-077c-4f4d-8dcc-bab7f5c845bf": "Tier - Receipt Uploads Monthly"
+                            },
+                            "id": "dda5c98a-caf3-4864-973e-f7d9fd19cec5",
+                            "rule_id": "9a7eb64d-7f12-4f33-a59d-552a1b9f38c0",
+                            "is_new": false,
+                            "rank": 0,
+                            "version": 0
+                          }
+                        ]
+                      },
+                      "discriminator": 2,
+                      "rule_tree_name": ""
+                    },
+                    {
+                      "rule_id": "f3f8462e-bc6c-43fe-84c5-9fbe86bf93b8",
+                      "tree_id": "93123d27-b706-4780-acf9-067ade89be02",
+                      "rule_passed": false,
+                      "rule": {
+                        "discriminator": 1,
+                        "id": "f3f8462e-bc6c-43fe-84c5-9fbe86bf93b8",
+                        "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                        "rank": 0,
+                        "is_new": false,
+                        "constraints": []
+                      },
+                      "discriminator": 1,
+                      "rule_tree_name": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "point_account_balances": {
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "user_id": "f3365bba-8461-11ec-82e5-598f9444e795",
+            "summary": {
+              "total_points": 0,
+              "life_time_points": 0
+            },
+            "details": [
+              {
+                "account_name": "Spendable - Final",
+                "user_point_account_id": "",
+                "point_account_id": "30524139-7e47-4a6b-9306-21b50b2dc161",
+                "grouping_label": "Spend",
+                "available_balance": 0,
+                "life_time_value": 0
+              },
+              {
+                "account_name": "Tier - Final",
+                "user_point_account_id": "",
+                "point_account_id": "f81cc4c0-8e97-4846-be51-3a50154275e5",
+                "grouping_label": "Tier",
+                "available_balance": 0,
+                "life_time_value": 0
+              },
+              {
+                "account_name": "Spendable - Other Monthly",
+                "user_point_account_id": "",
+                "point_account_id": "4b163f8e-ee6e-407a-b78f-44e75b4f3256",
+                "grouping_label": "Spend",
+                "available_balance": 0,
+                "life_time_value": 0
+              },
+              {
+                "account_name": "Tier - Other Monthly",
+                "user_point_account_id": "",
+                "point_account_id": "76c953fe-fc50-41d6-b7a9-53ee0f3d0f5b",
+                "grouping_label": "Tier",
+                "available_balance": 0,
+                "life_time_value": 0
+              }
+            ]
+          }
+        },
+        "referrer_code": "ROBERTM-B5CA28",
+        "user_profile": {
+          "_version": 1,
+          "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+          "terms_conditions": true,
+          "origin_product_OwnerId": "Rewards_USA",
+          "origin_platform_type": "Rewards_USA",
+          "origin_url": "https://qa-mycooler.abi-rewards.de/signup",
+          "rewards_platform_id": "Rewards_USA",
+          "migration_tier": "NA",
+          "migration_points": 0,
+          "rewards_program_id": "32bc77c7-d140-46c1-b966-486b8d19107b",
+          "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+          "registration_device_platform": "Win32",
+          "registration_device_os": "Windows",
+          "is_active": true
+        },
+        "phone_numbers": [
+          {
+            "phone_number": "13322151861",
+            "phone_type": "mobile",
+            "preference_flags": [
+              "primary"
+            ],
+            "verified_ownership": false
+          }
+        ]
+      }
+    }
+  },
+  "APIFourthRequest": {
+    "url": "undefinedprocess.env.REWARDS_ENGINE_RELATIVE_URL_FETCH_ACCOUNTS",
+    "method": "POST",
+    "data": {
+      "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+      "take": 10,
+      "sort_direction": "asc",
+      "sort_column": "Name",
+      "include_expiration_policy": true,
+      "include_point_sources": true,
+      "include_restrictions": true
+    },
+    "headers": {
+      "Authorization": "Basic dW5kZWZpbmVkOnVuZGVmaW5lZA=="
+    }
+  },
+  "APIFourthResponse": {
+    "statusCode": 200,
+    "body": {
+      "status": "ok",
+      "payload": {
+        "total_records": 7,
+        "results": [
+          {
+            "id": "be04149c-0af3-46d8-914e-fbd77d42bede",
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "name": "Invite a Friend Monthly Tracker",
+            "grouping_label": "",
+            "include_in_default_points": false,
+            "active": true,
+            "allow_negative_balance": false,
+            "expiration_policy": {
+              "point_account_id": "be04149c-0af3-46d8-914e-fbd77d42bede",
+              "policy_type": 1,
+              "next_evaluation_date": "2022-03-01T00:00:00",
+              "frequency_value": 1,
+              "frequency_unit_type": 2,
+              "expiration_age_value": 1,
+              "expiration_age_unit_type": 0,
+              "point_expiration_percentage": 100,
+              "specific_activity_event_types": []
+            },
+            "point_sources": [
+              {
+                "id": "4ad4c198-c1e2-441a-9759-aed7f9abc4a9",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Account Creation",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "2e5a5708-6464-462a-bc03-b1cfea705344",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Invite a Friend",
+                "status": 1,
+                "restrictions": [
+                  {
+                    "personal": true,
+                    "max_points": 1320,
+                    "time": 1,
+                    "unit_of_time": "Month",
+                    "discriminator": 2,
+                    "id": "567451d2-bc00-4bfb-889f-ae4cc99de9e5",
+                    "point_source_id": "2e5a5708-6464-462a-bc03-b1cfea705344"
+                  }
+                ],
+                "point_accounts": []
+              },
+              {
+                "id": "5ebaf759-41e2-4833-9e10-d4c3c0dc8f30",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Promo Code Redemption",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              }
+            ]
+          },
+          {
+            "id": "30524139-7e47-4a6b-9306-21b50b2dc161",
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "name": "Spendable - Final",
+            "grouping_label": "Spend",
+            "include_in_default_points": false,
+            "active": true,
+            "allow_negative_balance": false,
+            "expiration_policy": {
+              "point_account_id": "30524139-7e47-4a6b-9306-21b50b2dc161",
+              "policy_type": 2,
+              "next_evaluation_date": "2022-02-01T23:59:59",
+              "frequency_value": 1,
+              "frequency_unit_type": 0,
+              "expiration_age_value": 1,
+              "expiration_age_unit_type": 2,
+              "point_expiration_percentage": 100,
+              "specific_activity_event_types": [
+                "EARN_POINTS",
+                "LOG_IN",
+                "SPEND_POINTS"
+              ]
+            },
+            "point_sources": [
+              {
+                "id": "2c93e729-7c24-4c88-a964-7a8889173088",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Historical",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "4ad4c198-c1e2-441a-9759-aed7f9abc4a9",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Account Creation",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "5ebaf759-41e2-4833-9e10-d4c3c0dc8f30",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Promo Code Redemption",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              }
+            ]
+          },
+          {
+            "id": "4b163f8e-ee6e-407a-b78f-44e75b4f3256",
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "name": "Spendable - Other Monthly",
+            "grouping_label": "Spend",
+            "include_in_default_points": false,
+            "active": true,
+            "allow_negative_balance": false,
+            "max_allowed_balance": 1345,
+            "expiration_policy": {
+              "point_account_id": "4b163f8e-ee6e-407a-b78f-44e75b4f3256",
+              "policy_type": 1,
+              "next_evaluation_date": "2022-03-01T00:00:00",
+              "frequency_value": 1,
+              "frequency_unit_type": 2,
+              "expiration_age_value": 1,
+              "expiration_age_unit_type": 0,
+              "point_expiration_percentage": 100,
+              "specific_activity_event_types": [],
+              "rollover_point_account_id": "30524139-7e47-4a6b-9306-21b50b2dc161"
+            },
+            "point_sources": [
+              {
+                "id": "ef2d192f-6c8d-4af0-877e-76502ef91616",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Complete Survey",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "2c93e729-7c24-4c88-a964-7a8889173088",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Historical",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "4ad4c198-c1e2-441a-9759-aed7f9abc4a9",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Account Creation",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "2e5a5708-6464-462a-bc03-b1cfea705344",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Invite a Friend",
+                "status": 1,
+                "restrictions": [
+                  {
+                    "personal": true,
+                    "max_points": 1320,
+                    "time": 1,
+                    "unit_of_time": "Month",
+                    "discriminator": 2,
+                    "id": "567451d2-bc00-4bfb-889f-ae4cc99de9e5",
+                    "point_source_id": "2e5a5708-6464-462a-bc03-b1cfea705344"
+                  }
+                ],
+                "point_accounts": []
+              },
+              {
+                "id": "34ff30bd-93ad-4f42-9d4f-b7b82ae9532c",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Trivia",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              }
+            ]
+          },
+          {
+            "id": "3024905a-fcfe-4b70-a15c-54ac71e1a693",
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "name": "Spendable - Receipt Uploads Monthly",
+            "grouping_label": "Spend",
+            "include_in_default_points": false,
+            "active": true,
+            "allow_negative_balance": false,
+            "max_allowed_balance": 2000,
+            "expiration_policy": {
+              "point_account_id": "3024905a-fcfe-4b70-a15c-54ac71e1a693",
+              "policy_type": 1,
+              "next_evaluation_date": "2022-03-01T00:00:00",
+              "frequency_value": 1,
+              "frequency_unit_type": 2,
+              "expiration_age_value": 1,
+              "expiration_age_unit_type": 0,
+              "point_expiration_percentage": 100,
+              "specific_activity_event_types": [],
+              "rollover_point_account_id": "30524139-7e47-4a6b-9306-21b50b2dc161"
+            },
+            "point_sources": [
+              {
+                "id": "2c93e729-7c24-4c88-a964-7a8889173088",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Historical",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "4ad4c198-c1e2-441a-9759-aed7f9abc4a9",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Account Creation",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "5ebaf759-41e2-4833-9e10-d4c3c0dc8f30",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Promo Code Redemption",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              }
+            ]
+          },
+          {
+            "id": "f81cc4c0-8e97-4846-be51-3a50154275e5",
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "name": "Tier - Final",
+            "grouping_label": "Tier",
+            "include_in_default_points": false,
+            "active": true,
+            "allow_negative_balance": false,
+            "expiration_policy": {
+              "point_account_id": "f81cc4c0-8e97-4846-be51-3a50154275e5",
+              "policy_type": 0,
+              "next_evaluation_date": "2021-11-05T23:59:59",
+              "frequency_value": 0,
+              "frequency_unit_type": 0,
+              "expiration_age_value": 0,
+              "expiration_age_unit_type": 0,
+              "point_expiration_percentage": 100,
+              "specific_activity_event_types": []
+            },
+            "point_sources": [
+              {
+                "id": "2c93e729-7c24-4c88-a964-7a8889173088",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Historical",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              }
+            ]
+          },
+          {
+            "id": "76c953fe-fc50-41d6-b7a9-53ee0f3d0f5b",
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "name": "Tier - Other Monthly",
+            "grouping_label": "Tier",
+            "include_in_default_points": false,
+            "active": true,
+            "allow_negative_balance": false,
+            "max_allowed_balance": 1345,
+            "expiration_policy": {
+              "point_account_id": "76c953fe-fc50-41d6-b7a9-53ee0f3d0f5b",
+              "policy_type": 1,
+              "next_evaluation_date": "2022-03-01T00:00:00",
+              "frequency_value": 1,
+              "frequency_unit_type": 2,
+              "expiration_age_value": 1,
+              "expiration_age_unit_type": 0,
+              "point_expiration_percentage": 100,
+              "specific_activity_event_types": [],
+              "rollover_point_account_id": "f81cc4c0-8e97-4846-be51-3a50154275e5"
+            },
+            "point_sources": [
+              {
+                "id": "ef2d192f-6c8d-4af0-877e-76502ef91616",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Complete Survey",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "2c93e729-7c24-4c88-a964-7a8889173088",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Historical",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "2e5a5708-6464-462a-bc03-b1cfea705344",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Invite a Friend",
+                "status": 1,
+                "restrictions": [
+                  {
+                    "personal": true,
+                    "max_points": 1320,
+                    "time": 1,
+                    "unit_of_time": "Month",
+                    "discriminator": 2,
+                    "id": "567451d2-bc00-4bfb-889f-ae4cc99de9e5",
+                    "point_source_id": "2e5a5708-6464-462a-bc03-b1cfea705344"
+                  }
+                ],
+                "point_accounts": []
+              },
+              {
+                "id": "34ff30bd-93ad-4f42-9d4f-b7b82ae9532c",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Trivia",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "5ebaf759-41e2-4833-9e10-d4c3c0dc8f30",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Promo Code Redemption",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              }
+            ]
+          },
+          {
+            "id": "6a3e5c60-077c-4f4d-8dcc-bab7f5c845bf",
+            "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+            "name": "Tier - Receipt Uploads Monthly",
+            "grouping_label": "Tier",
+            "include_in_default_points": false,
+            "active": true,
+            "allow_negative_balance": false,
+            "max_allowed_balance": 2000,
+            "expiration_policy": {
+              "point_account_id": "6a3e5c60-077c-4f4d-8dcc-bab7f5c845bf",
+              "policy_type": 1,
+              "next_evaluation_date": "2022-03-01T00:00:00",
+              "frequency_value": 1,
+              "frequency_unit_type": 2,
+              "expiration_age_value": 1,
+              "expiration_age_unit_type": 0,
+              "point_expiration_percentage": 100,
+              "specific_activity_event_types": [],
+              "rollover_point_account_id": "f81cc4c0-8e97-4846-be51-3a50154275e5"
+            },
+            "point_sources": [
+              {
+                "id": "2c93e729-7c24-4c88-a964-7a8889173088",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Historical",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              },
+              {
+                "id": "4ad4c198-c1e2-441a-9759-aed7f9abc4a9",
+                "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+                "name": "Account Creation",
+                "status": 1,
+                "restrictions": [],
+                "point_accounts": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "APIFifthRequest": {
+    "url": "undefinedprocess.env.REWARDS_ENGINE_RELATIVE_URL_FETCH_TIERS",
+    "method": "POST",
+    "data": {
+      "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+      "take": 10,
+      "sort_direction": "asc",
+      "sort_column": "Name",
+      "include_expiration_policy": true,
+      "include_point_sources": true,
+      "include_restrictions": true,
+      "tier_system_id": "ebee7981-4aa5-4ee0-b691-84c340833038"
+    },
+    "headers": {
+      "Authorization": "Basic dW5kZWZpbmVkOnVuZGVmaW5lZA=="
+    }
+  },
+  "APIFifthResponse": {
+    "statusCode": 200,
+    "body": {
+      "status": "ok",
+      "payload": {
+        "tier_system": {
+          "id": "ebee7981-4aa5-4ee0-b691-84c340833038",
+          "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+          "name": "My Cooler Program - DO NOT EDIT",
+          "number_of_levels": 2,
+          "status": 2,
+          "disabled": false,
+          "create_date": "2021-09-28T23:07:39.71",
+          "tier_levels": [
+            {
+              "id": "e689bb76-ee9c-4d3b-9dcc-66fcba88c40b",
+              "tier_system_id": "ebee7981-4aa5-4ee0-b691-84c340833038",
+              "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+              "name": "Gold",
+              "rank": 1,
+              "status": 2,
+              "joining_outcome_frequency_uom": 7,
+              "maintenance_age_uom": 0,
+              "maintenance_frequency_value": 1,
+              "maintenance_frequency_uom": 2,
+              "maintenance_frequency_day": 0,
+              "maintenance_frequency_is_relative": false
+            },
+            {
+              "id": "04f1be72-f36c-4ddc-a6a8-d2256d596a07",
+              "tier_system_id": "ebee7981-4aa5-4ee0-b691-84c340833038",
+              "retailer_id": "341303a8-4250-46df-a00e-e292a728ba0a",
+              "name": "Silver",
+              "rank": 0,
+              "status": 2,
+              "joining_outcome_frequency_value": 1,
+              "joining_outcome_frequency_uom": 7,
+              "maintenance_age_uom": 0,
+              "maintenance_frequency_value": 1,
+              "maintenance_frequency_uom": 2,
+              "maintenance_frequency_day": 0,
+              "maintenance_frequency_is_relative": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}

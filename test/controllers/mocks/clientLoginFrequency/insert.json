@@ -1,0 +1,16 @@
+{
+  "mock": {
+    "time_login": 0,
+    "start_login_timestamp": 1643425198,
+    "finish_login_timestamp": 1643425199,
+    "start_login": "28/1/2022 20:59:58",
+    "finish_login": "28/1/2022 20:59:59",
+    "platform": "Rewards_USA",
+    "user": "carreraj@gmail.com",
+    "origin": "web",
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+    "program": "MyCooler",
+    "create_date": "28/1/2022 20:59:59",
+    "_id": "61f4adaf1e4c8c0009835851"
+  }
+}

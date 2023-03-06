@@ -1,0 +1,67 @@
+{
+  "mock": {
+    "queryStringParameters":{
+      "email":"lpadillagalicia@gmail.com",
+      "platform":"Rewards_USA",
+      "program":"MyCooler"
+    }
+  },
+  "mockWithHeaders": {
+    "headers": {
+      "x-sso-region": "NorthAmerica",
+      "x-sso-lang": "en"
+    },
+    "queryStringParameters":{
+      "email":"lpadillagalicia@gmail.com",
+      "platform":"Rewards_USA",
+      "program":"MyCooler"
+    }
+  },
+  "mockWithoutStringParams": {
+    "email":"lpadillagalicia@gmail.com",
+    "platform":"Rewards_USA"
+  },
+  "resultMock": [
+    {
+      "_id": "619827666417a10a92a5a357",
+      "platform": "Rewards_USA",
+      "program": "MyCooler",
+      "client_structure": [
+        {
+          "field_type": "text",
+          "field_label": "First Name",
+          "field_name": "firstName",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "field_regex": "",
+          "regex_description": "Must be a string without numbers and special characters",
+          "field_min_length": 1,
+          "field_max_length": 100,
+          "position_H": 1,
+          "position_V": 1,
+          "place_holder": "Laura"
+        },
+        {
+          "field_type": "text",
+          "field_label": "Last Name",
+          "field_name": "lastName",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "field_regex": "",
+          "regex_description": "Must be a string without numbers and special characters",
+          "field_min_length": 1,
+          "field_max_length": 100,
+          "position_H": 1,
+          "position_V": 2,
+          "place_holder": "Gil"
+        }
+      ],
+      "create_user": "backoffice@ab-inbev.com",
+      "create_date": "19/11/2021 15:15:46",
+      "last_update_date": "31/1/2022 12:44:16",
+      "update_user": "test@gmail.com"
+    }
+  ]
+}

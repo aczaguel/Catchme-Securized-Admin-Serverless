@@ -1,0 +1,229 @@
+service: Catche-Admin-Lists
+plugins:
+  - serverless-pseudo-parameters
+  - serverless-domain-manager
+  - serverless-prune-plugin
+  - serverless-offline
+
+package:
+  exclude:
+    - 'node_modules/**'
+    
+custom:
+  prune:
+    automatic: true
+    number: 3
+  settings:
+    ADMIN: catchme
+  customDomain:
+    domainName: ${param:domainName}
+    basePath: 'admin'
+    createRoute53Record: true
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  environment: ${self:custom.settings}
+  timeout: 30    
+  iam:
+    role:
+      statements:
+        - Effect: Allow 
+          Action:
+            - lambda:InvokeFunction
+          Resource: 'arn:aws:lambda:*:*:*'
+        - Effect: Allow
+          Action:
+            - secretsmanager:*
+          Resource: 'arn:aws:secretsmanager:#{AWS::Region}:#{AWS::AccountId}:secret:*'
+        - Effect: Allow
+          Action:
+            - sqs:SendMessage
+          Resource: 'arn:aws:sqs:*:*:*' 
+  apiName: ${self:service}
+            
+functions:
+    filtermonitoring:
+      handler: controllers/monitoring/filtermonitoring.index
+      environment:
+          NODE_PATH: "./:/opt/node_modules"
+      layers:
+        - ${cf:node-modules-layer-${self:provider.stage}.NodeModulesLambdaLayerExport}
+      events:
+        - http:
+            path: general/v1/enterprise/filtermonitoring
+            method: post
+            cors: 
+              origin: '*' 
+              headers: 
+                - Content-Type
+                - X-Amz-Date
+                - Authorization
+                - X-Api-Key
+                - X-Amz-Security-Token
+                - X-Amz-User-Agent
+                - token
+                - key
+                - user
+            authorizer:
+              arn: arn:aws:lambda:#{AWS::Region}:#{AWS::AccountId}:function:Rewards-Security-Auth
+              identitySource: method.request.header.token
+              type: request
+              resultTtlInSeconds: 0
+    list_admin_users:
+      handler: controllers/monitoring/list_admin_users.index
+      environment:
+          NODE_PATH: "./:/opt/node_modules"
+      layers:
+        - ${cf:node-modules-layer-${self:provider.stage}.NodeModulesLambdaLayerExport}
+      events:
+        - http:
+            path: general/v1/enterprise/adminusers
+            method: post
+            cors: 
+              origin: '*' 
+              headers: 
+                - Content-Type
+                - X-Amz-Date
+                - Authorization
+                - X-Api-Key
+                - X-Amz-Security-Token
+                - X-Amz-User-Agent
+                - token
+                - key
+                - user
+            authorizer:
+              arn: arn:aws:lambda:#{AWS::Region}:#{AWS::AccountId}:function:Rewards-Security-Auth
+              identitySource: method.request.header.token
+              type: request
+              resultTtlInSeconds: 0
+    list_catchme_users:
+      handler: controllers/monitoring/list_catchme_users.index
+      environment:
+          NODE_PATH: "./:/opt/node_modules"
+      layers:
+        - ${cf:node-modules-layer-${self:provider.stage}.NodeModulesLambdaLayerExport}
+      events:
+        - http:
+            path: general/v1/enterprise/catchmeusers
+            method: post
+            cors: 
+              origin: '*' 
+              headers: 
+                - Content-Type
+                - X-Amz-Date
+                - Authorization
+                - X-Api-Key
+                - X-Amz-Security-Token
+                - X-Amz-User-Agent
+                - token
+                - key
+                - user
+            authorizer:
+              arn: arn:aws:lambda:#{AWS::Region}:#{AWS::AccountId}:function:Rewards-Security-Auth
+              identitySource: method.request.header.token
+              type: request
+              resultTtlInSeconds: 0
+
+    list_enterprise_contact:
+      handler: controllers/monitoring/list_enterprise_contact.index
+      environment:
+          NODE_PATH: "./:/opt/node_modules"
+      layers:
+        - ${cf:node-modules-layer-${self:provider.stage}.NodeModulesLambdaLayerExport}
+      events:
+        - http:
+            path: general/v1/enterprise/econtact
+            method: post
+            cors: 
+              origin: '*' 
+              headers: 
+                - Content-Type
+                - X-Amz-Date
+                - Authorization
+                - X-Api-Key
+                - X-Amz-Security-Token
+                - X-Amz-User-Agent
+                - token
+                - key
+                - user
+            authorizer:
+              arn: arn:aws:lambda:#{AWS::Region}:#{AWS::AccountId}:function:Rewards-Security-Auth
+              identitySource: method.request.header.token
+              type: request
+              resultTtlInSeconds: 0
+        
+    list_enterprise_facturation:
+      handler: controllers/monitoring/list_enterprise_facturation.index
+      environment:
+          NODE_PATH: "./:/opt/node_modules"
+      layers:
+        - ${cf:node-modules-layer-${self:provider.stage}.NodeModulesLambdaLayerExport}
+      events:
+        - http:
+            path: general/v1/enterprise/efacturation
+            method: post
+            cors: 
+              origin: '*' 
+              headers: 
+                - Content-Type
+                - X-Amz-Date
+                - Authorization
+                - X-Api-Key
+                - X-Amz-Security-Token
+                - X-Amz-User-Agent
+                - token
+                - key
+                - user
+            authorizer:
+              arn: arn:aws:lambda:#{AWS::Region}:#{AWS::AccountId}:function:Rewards-Security-Auth
+              identitySource: method.request.header.token
+              type: request
+              resultTtlInSeconds: 0
+    
+    list_services:
+      handler: controllers/monitoring/list_services.index
+      environment:
+          NODE_PATH: "./:/opt/node_modules"
+      layers:
+        - ${cf:node-modules-layer-${self:provider.stage}.NodeModulesLambdaLayerExport}
+      events:
+        - http:
+            path: general/v1/enterprise/services
+            method: post
+            cors: 
+              origin: '*' 
+              headers: 
+                - Content-Type
+                - X-Amz-Date
+                - Authorization
+                - X-Api-Key
+                - X-Amz-Security-Token
+                - X-Amz-User-Agent
+                - token
+                - key
+                - user
+            authorizer:
+              arn: arn:aws:lambda:#{AWS::Region}:#{AWS::AccountId}:function:Rewards-Security-Auth
+              identitySource: method.request.header.token
+              type: request
+              resultTtlInSeconds: 0
+resources:
+  Resources:
+    EventSessionMSQSQueue:
+      Type: "AWS::SQS::Queue"
+      Properties:
+        QueueName: client_events.fifo
+        FifoQueue: true
+        ContentBasedDeduplication: true
+    GatewayResponse:
+      Type: "AWS::ApiGateway::GatewayResponse"
+      Properties:
+        ResponseParameters:
+          gatewayresponse.header.Access-Control-Allow-Origin: "'*'"
+          gatewayresponse.header.Access-Control-Allow-Headers: "'*'"
+        ResponseType: UNAUTHORIZED
+        RestApiId:
+          Ref: ApiGatewayRestApi
+        StatusCode: '401'

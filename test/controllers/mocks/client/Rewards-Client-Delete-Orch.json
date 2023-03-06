@@ -1,0 +1,31 @@
+{
+  "mock": {
+    "pathParameters": {
+      "email": "test.abi@gmail.com"
+    }
+  },
+  "mockDelete": {
+    "user":"dvillanueva1234@serempre.com",
+    "platform": "Rewards_USA",
+    "program": "MyCooler"
+  },
+  "deleteResultMock": {
+    "result": {
+      "n": 1,
+      "electionId": "7fffffff0000000000000004",
+      "opTime": {
+        "ts": "7032382122492952577",
+        "t": 4
+      },
+      "ok": 1,
+      "$clusterTime": {
+        "clusterTime": "7032382122492952577",
+        "signature": {
+          "hash": "lVHUVofmlapBlMgq9pWi2naMJXY=",
+          "keyId": "7013404727891197954"
+        }
+      },
+      "operationTime": "7032382122492952577"
+    }
+  }
+}

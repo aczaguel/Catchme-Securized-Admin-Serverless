@@ -1,0 +1,218 @@
+{
+  "mock": {
+    "resource": "/schema",
+    "path": "/client/schema",
+    "httpMethod": "PUT",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Type": "application/json",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "6a6796c4-49c8-44bf-bc11-bcbd7ba909e9",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.28.4",
+      "X-Amzn-Trace-Id": "Root=1-61f0046a-63a43aac7359f1130e7d085c",
+      "X-Forwarded-For": "189.214.5.193",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Host": [
+        "us-qa-api.abi-rewards.de"
+      ],
+      "key": [
+        "abi-global-launchpad"
+      ],
+      "Postman-Token": [
+        "6a6796c4-49c8-44bf-bc11-bcbd7ba909e9"
+      ],
+      "token": [
+        "0be0f552db16cf5637e22bca5cabbd85"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.28.4"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61f0046a-63a43aac7359f1130e7d085c"
+      ],
+      "X-Forwarded-For": [
+        "189.214.5.193"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "l3xjex",
+      "authorizer": {
+        "numberKey": "123",
+        "booleanKey": "true",
+        "stringKey": "stringval",
+        "principalId": "user",
+        "integrationLatency": 73
+      },
+      "resourcePath": "/schema",
+      "httpMethod": "PUT",
+      "extendedRequestId": "MgWgpF_QIAMFXuA=",
+      "requestTime": "25/Jan/2022:14:08:42 +0000",
+      "path": "/client/schema",
+      "accountId": "957923038502",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "us-qa-api",
+      "requestTimeEpoch": 1643119722392,
+      "requestId": "fb0ae6a1-7465-4f65-ad90-bdce2cfdc785",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "189.214.5.193",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.28.4",
+        "user": null
+      },
+      "domainName": "us-qa-api.abi-rewards.de",
+      "apiId": "6oz8mr0gq8"
+    },
+    "body": "{ \n    \"platform\": \"Rewards_USA\",\n    \"program\": \"MyCooler\",\n    \"client_structure\": [{\n        \"field_required\": false,\n        \"field_label\": \"Favorite Color\",\n        \"field_max_length\": 100,\n        \"field_min_length\": 1,\n        \"field_regex\": \"\",\n        \"field_name\": \"favorite_color\",\n        \"field_type\": \"text\",\n        \"status\": \"Active\",\n        \"basic\": false\n    }],\n    \"update_user\": \"backoffice@ab-inbev.com\"\n}",
+    "isBase64Encoded": false
+  },
+  "mockWithoutHeaders":  {
+    "resource": "/schema",
+    "path": "/client/schema",
+    "httpMethod": "PUT",
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Host": [
+        "us-qa-api.abi-rewards.de"
+      ],
+      "key": [
+        "abi-global-launchpad"
+      ],
+      "Postman-Token": [
+        "6a6796c4-49c8-44bf-bc11-bcbd7ba909e9"
+      ],
+      "token": [
+        "0be0f552db16cf5637e22bca5cabbd85"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.28.4"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61f0046a-63a43aac7359f1130e7d085c"
+      ],
+      "X-Forwarded-For": [
+        "189.214.5.193"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "l3xjex",
+      "authorizer": {
+        "numberKey": "123",
+        "booleanKey": "true",
+        "stringKey": "stringval",
+        "principalId": "user",
+        "integrationLatency": 73
+      },
+      "resourcePath": "/schema",
+      "httpMethod": "PUT",
+      "extendedRequestId": "MgWgpF_QIAMFXuA=",
+      "requestTime": "25/Jan/2022:14:08:42 +0000",
+      "path": "/client/schema",
+      "accountId": "957923038502",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "us-qa-api",
+      "requestTimeEpoch": 1643119722392,
+      "requestId": "fb0ae6a1-7465-4f65-ad90-bdce2cfdc785",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "189.214.5.193",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.28.4",
+        "user": null
+      },
+      "domainName": "us-qa-api.abi-rewards.de",
+      "apiId": "6oz8mr0gq8"
+    },
+    "body": "{ \n    \"platform\": \"Rewards_USA\",\n    \"program\": \"MyCooler\",\n    \"client_structure\": [{\n        \"field_required\": false,\n        \"field_label\": \"Favorite Color\",\n        \"field_max_length\": 100,\n        \"field_min_length\": 1,\n        \"field_regex\": \"\",\n        \"field_name\": \"favorite_color\",\n        \"field_type\": \"text\",\n        \"status\": \"Active\",\n        \"basic\": false\n    }],\n    \"update_user\": \"backoffice@ab-inbev.com\"\n}",
+    "isBase64Encoded": false
+  },
+  "resultMock": [
+    {
+      "_id": "619827666417a10a92a5a357",
+      "platform": "Rewards_USA",
+      "program": "MyCooler",
+      "client_structure": [
+        [
+          "Object"
+        ],
+        [
+          "Object"
+        ]
+      ],
+      "create_user": "backoffice@ab-inbev.com",
+      "create_date": "19/11/2021 15:15:46",
+      "last_update_date": "25/1/2022 8:08:31",
+      "update_user": "backoffice@ab-inbev.com"
+    }
+  ],
+  "resultWithoutClientStructureMock": [
+    {
+      "_id": "619827666417a10a92a5a357",
+      "platform": "Rewards_USA",
+      "program": "MyCooler",
+      "create_user": "backoffice@ab-inbev.com",
+      "create_date": "19/11/2021 15:15:46",
+      "last_update_date": "25/1/2022 8:08:31",
+      "update_user": "backoffice@ab-inbev.com"
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "mock": {
+    "resource": "/schema",
+    "path": "/client/schema",
+    "httpMethod": "GET",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "es-ES,es;q=0.9",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "origin": "https://qa.d25e9f3pxg0uoj.amplifyapp.com",
+      "referer": "https://qa.d25e9f3pxg0uoj.amplifyapp.com/",
+      "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+      "X-Amzn-Trace-Id": "Root=1-61aeb4fa-1e3b9d4635f16cb14ea2e3b9",
+      "X-Forwarded-For": "189.139.56.65",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "accept": [
+        "application/json, text/plain, */*"
+      ],
+      "accept-encoding": [
+        "gzip, deflate, br"
+      ],
+      "accept-language": [
+        "es-ES,es;q=0.9"
+      ],
+      "Host": [
+        "us-qa-api.abi-rewards.de"
+      ],
+      "key": [
+        "abi-global-launchpad"
+      ],
+      "origin": [
+        "https://qa.d25e9f3pxg0uoj.amplifyapp.com"
+      ],
+      "referer": [
+        "https://qa.d25e9f3pxg0uoj.amplifyapp.com/"
+      ],
+      "sec-ch-ua": [
+        "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\""
+      ],
+      "sec-ch-ua-mobile": [
+        "?0"
+      ],
+      "sec-ch-ua-platform": [
+        "\"Windows\""
+      ],
+      "sec-fetch-dest": [
+        "empty"
+      ],
+      "sec-fetch-mode": [
+        "cors"
+      ],
+      "sec-fetch-site": [
+        "cross-site"
+      ],
+      "token": [
+        "0be0f552db16cf5637e22bca5cabbd85"
+      ],
+      "User-Agent": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61aeb4fa-1e3b9d4635f16cb14ea2e3b9"
+      ],
+      "X-Forwarded-For": [
+        "189.139.56.65"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": {
+      "platform": "Rewards_USA",
+      "program": "MyCooler"
+    },
+    "multiValueQueryStringParameters": {
+      "platform": [
+        "Rewards_USA"
+      ],
+      "program": [
+        "MyCooler"
+      ]
+    },
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "l3xjex",
+      "authorizer": {
+        "numberKey": "123",
+        "booleanKey": "true",
+        "stringKey": "stringval",
+        "principalId": "user",
+        "integrationLatency": 116
+      },
+      "resourcePath": "/schema",
+      "httpMethod": "GET",
+      "extendedRequestId": "J9E3OEd5oAMFU2g=",
+      "requestTime": "07/Dec/2021:01:12:26 +0000",
+      "path": "/client/schema",
+      "accountId": "957923038502",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "us-qa-api",
+      "requestTimeEpoch": 1638839546842,
+      "requestId": "4f8cf568-db5f-454c-a45e-50c24e0f77db",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "189.139.56.65",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+        "user": null
+      },
+      "domainName": "us-qa-api.abi-rewards.de",
+      "apiId": "6oz8mr0gq8"
+    },
+    "body": null,
+    "isBase64Encoded": false
+  },
+  "resultMock": [
+    {
+      "_id": "619827666417a10a92a5a357",
+      "platform": "Rewards_USA",
+      "program": "MyCooler",
+      "client_structure": [
+        {
+          "field_type": "text",
+          "field_label": "First Name",
+          "field_name": "firstName",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "field_regex": "",
+          "regex_description": "Must be a string without numbers and special characters",
+          "field_min_length": 1,
+          "field_max_length": 100,
+          "position_H": 1,
+          "position_V": 1
+        },
+        {
+          "field_type": "text",
+          "field_label": "Last Name",
+          "field_name": "lastName",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "field_regex": "",
+          "regex_description": "Must be a string without numbers and special characters",
+          "field_min_length": 1,
+          "field_max_length": 100,
+          "position_H": 1,
+          "position_V": 2
+        },
+        {
+          "field_type": "date",
+          "field_label": "Birthdate",
+          "field_name": "birthdate",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "regex_description": "",
+          "field_format": "MM/DD/YYYY",
+          "position_H": 1,
+          "position_V": 3
+        },
+        {
+          "field_type": "select",
+          "field_label": "Gender",
+          "field_name": "gender",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "regex_description": "",
+          "field_items": [
+            {
+              "value": "Male",
+              "order": 1
+            },
+            {
+              "value": "Female",
+              "order": 2
+            },
+            {
+              "value": "No Binary",
+              "order": 3
+            }
+          ],
+          "position_H": 1,
+          "position_V": 4
+        },
+        {
+          "field_type": "text",
+          "field_label": "Email",
+          "field_name": "email",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "field_regex": "",
+          "regex_description": "",
+          "position_H": 1,
+          "position_V": 5
+        },
+        {
+          "field_type": "password",
+          "field_label": "Password",
+          "field_name": "password",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "field_regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9d]{7,}$",
+          "regex_description": "Must contain at least eight characters, at least one number and both lower and uppercase letters",
+          "field_min_length": 1,
+          "field_max_length": 100,
+          "position_H": 1,
+          "position_V": 6
+        },
+        {
+          "field_type": "password",
+          "field_label": "Confirm Password",
+          "field_name": "confirmPassword",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "field_regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9d]{7,}$",
+          "regex_description": "",
+          "field_min_length": 1,
+          "field_max_length": 100,
+          "position_H": 1,
+          "position_V": 7
+        },
+        {
+          "field_required": true,
+          "field_label": "Phone",
+          "field_name": "phoneNumber",
+          "field_type": "phone",
+          "field_regex": "",
+          "field_min_length": 10,
+          "field_max_length": 100,
+          "status": "Active",
+          "basic": true,
+          "position_V": 8,
+          "position_H": 1,
+          "regex_description": ""
+        },
+        {
+          "field_type": "text",
+          "field_label": "Zip Code",
+          "field_name": "zipcode",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "field_regex": "^\\d{5}$|(^\\d{5}-\\d{4}$)",
+          "regex_description": "\"Please enter a valid zip code\".",
+          "field_min_length": 1,
+          "field_max_length": 100,
+          "position_H": 1,
+          "position_V": 9
+        },
+        {
+          "field_type": "checkbox",
+          "field_label": "Yes, I want to receive the newsletter by email",
+          "field_name": "advertisement",
+          "status": "Active",
+          "basic": true,
+          "field_required": false,
+          "regex_description": "",
+          "position_H": 1,
+          "position_V": 10,
+          "field_type_name": "",
+          "subplatform": "",
+          "url": ""
+        },
+        {
+          "field_type": "checkbox",
+          "field_label": "Yes, I have read and agree to the MyCooler Terms of Use and Privacy Policy,  which describe how the information I provide may be used.",
+          "field_name": "termsAndConditionsRewardsUSA",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "regex_description": "",
+          "position_H": 1,
+          "position_V": 11,
+          "field_type_name": "termsAndConditions",
+          "platform": "Rewards_USA",
+          "subplatform": "MyCooler",
+          "url": "https://www.mycooler.com/en/terms-conditions.html"
+        },
+        {
+          "field_type": "checkbox",
+          "field_label": "Yes, I consent to MyCooler and its affiliates using my Personal Information to provide me with product and marketing information by email and other electronic means",
+          "field_name": "privacy_policy",
+          "status": "Active",
+          "basic": true,
+          "field_required": true,
+          "regex_description": "",
+          "position_H": 1,
+          "position_V": 12,
+          "field_type_name": "",
+          "subplatform": "",
+          "url": "https://www.mycooler.com/en/privacy-policy.html"
+        },
+        {
+          "field_type": "checkbox",
+          "field_label": "Push Notifications",
+          "field_name": "push_opt_in",
+          "status": "Inactive",
+          "basic": false,
+          "field_required": false,
+          "regex_description": "",
+          "field_type_name": "",
+          "subplatform": "",
+          "url": ""
+        },
+        {
+          "field_type": "checkbox",
+          "field_label": "SMS Notifications",
+          "field_name": "sms_opt_in",
+          "status": "Inactive",
+          "basic": false,
+          "field_required": false,
+          "regex_description": "",
+          "field_type_name": "",
+          "subplatform": "",
+          "url": ""
+        },
+        {
+          "field_type": "text",
+          "field_label": "Origin Product OwnerId",
+          "field_name": "origin_product_OwnerId",
+          "status": "Active",
+          "basic": false,
+          "field_required": false,
+          "field_regex": "",
+          "field_min_length": 1,
+          "field_max_length": 100
+        },
+        {
+          "field_required": true,
+          "field_label": "Agent",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "agent",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Origin Url",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "origin_url",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Platform",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "platform",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_type": "text",
+          "field_label": "Program",
+          "field_name": "program",
+          "status": "Active",
+          "basic": false,
+          "field_required": false,
+          "field_regex": "",
+          "regex_description": "",
+          "field_min_length": 1,
+          "field_max_length": 100
+        },
+        {
+          "field_required": true,
+          "field_label": "Origin",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "origin",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Country",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "country",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_label": "Create SSO",
+          "field_name": "create_sso",
+          "field_type": "checkbox",
+          "field_required": false,
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Migration Tier",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "migration_tier",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Migration Points",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "migration_points",
+          "field_type": "number",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Rewards Platform Id",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "rewards_platform_id",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Rewards Program Id",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "rewards_program_id",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Signup Campaign",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "signup_campaign",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Registration Device Id",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "registration_device_id",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Registration Device Model",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "registration_device_model",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Registration Device Platform",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "registration_device_platform",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Registration Device OS",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "registration_device_os",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Locale",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "locale",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_label": "Is Active",
+          "field_name": "is_active",
+          "field_type": "checkbox",
+          "field_required": true,
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_required": true,
+          "field_label": "Origin Platform Type",
+          "field_max_length": 100,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "origin_platform_type",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_type": "text",
+          "field_label": "User",
+          "field_name": "user",
+          "status": "Active",
+          "basic": false,
+          "field_required": false,
+          "field_regex": "",
+          "regex_description": "",
+          "field_min_length": 1,
+          "field_max_length": 100
+        },
+        {
+          "field_required": false,
+          "field_label": "Address",
+          "field_max_length": 200,
+          "field_min_length": 1,
+          "field_regex": "",
+          "field_name": "address",
+          "field_type": "text",
+          "status": "Active",
+          "basic": false
+        },
+        {
+          "field_type": "select",
+          "field_label": "favoriteBeer",
+          "field_name": "Favorite_Beer",
+          "status": "Inactive",
+          "basic": false,
+          "field_required": false,
+          "regex_description": "",
+          "field_items": [
+            {
+              "value": "corona 1",
+              "order": 1
+            },
+            {
+              "value": "corona 2",
+              "order": 2
+            },
+            {
+              "value": "Corona 3",
+              "order": 3
+            },
+            {
+              "value": "corona 4",
+              "order": 4
+            },
+            {
+              "value": "corona 5",
+              "order": 5
+            },
+            {
+              "value": "corona 6",
+              "order": 6
+            }
+          ]
+        },
+        {
+          "field_type": "checkbox",
+          "field_label": "TerminosCondiciones Legend",
+          "field_name": "TerminoCondicionesLegend",
+          "status": "Inactive",
+          "basic": false,
+          "field_required": false,
+          "regex_description": "",
+          "field_type_name": "termsAndConditions",
+          "subplatform": "MyCooler",
+          "url": "http://google.com"
+        },
+        {
+          "field_type": "select",
+          "field_label": "Color Favorito",
+          "field_name": "Color Favorito",
+          "status": "Inactive",
+          "basic": false,
+          "field_required": false,
+          "regex_description": "",
+          "field_items": [
+            {
+              "value": "",
+              "order": 1
+            },
+            {
+              "value": "rojo",
+              "order": 2
+            },
+            {
+              "value": "verde",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "create_user": "backoffice@ab-inbev.com",
+      "create_date": "19/11/2021 15:15:46",
+      "last_update_date": "6/12/2021 19:12:25",
+      "update_user": "test@gmail.com"
+    }
+  ]
+}

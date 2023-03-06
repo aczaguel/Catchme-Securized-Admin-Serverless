@@ -1,0 +1,195 @@
+{
+  "mock": {
+    "resource": "/schema",
+    "path": "/client/schema",
+    "httpMethod": "POST",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "70cec0ed-5d7e-42f0-b3e0-f13433681dde",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b5e-437384ec772b2a4c5172965e",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Cache-Control": [
+        "no-cache"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Host": [
+        "us-qa-api.abi-rewards.de"
+      ],
+      "key": [
+        "abi-global-launchpad"
+      ],
+      "Postman-Token": [
+        "70cec0ed-5d7e-42f0-b3e0-f13433681dde"
+      ],
+      "token": [
+        "0be0f552db16cf5637e22bca5cabbd85"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.29.0"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61f00b5e-437384ec772b2a4c5172965e"
+      ],
+      "X-Forwarded-For": [
+        "201.221.176.42"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "l3xjex",
+      "authorizer": {
+        "numberKey": "123",
+        "booleanKey": "true",
+        "stringKey": "stringval",
+        "principalId": "user",
+        "integrationLatency": 919
+      },
+      "resourcePath": "/schema",
+      "httpMethod": "POST",
+      "extendedRequestId": "Mga2yGZgoAMFfew=",
+      "requestTime": "25/Jan/2022:14:38:22 +0000",
+      "path": "/client/schema",
+      "accountId": "957923038502",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "us-qa-api",
+      "requestTimeEpoch": 1643121502404,
+      "requestId": "4d652544-9e8e-4893-b960-053981a595d7",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "201.221.176.42",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.29.0",
+        "user": null
+      },
+      "domainName": "us-qa-api.abi-rewards.de",
+      "apiId": "6oz8mr0gq8"
+    },
+    "body": "{\n   \"platform\": \"Rewards_Test\",\n   \"program\": \"MyCooler_Prueba\",\n   \"client_structure\": [{\n           \"field_required\": true,\n           \"field_label\": \"Email\",\n           \"field_max_length\": 100,\n           \"field_min_length\": 1,\n           \"field_regex\": \"\",\n           \"field_name\": \"email\",\n           \"field_type\": \"text\",\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 1,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Name\",\n           \"field_name\": \"firstName\",\n           \"field_type\": \"text\",\n           \"field_regex\": \"[A-Za-zÀ-ÖØ-öø-ÿ ]*\",\n           \"field_min_length\": 1,\n           \"field_max_length\": 100,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 2,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Last Name\",\n           \"field_name\": \"lastName\",\n           \"field_type\": \"text\",\n           \"field_regex\": \"[A-Za-zÀ-ÖØ-öø-ÿ ]*\",\n           \"field_min_length\": 1,\n           \"field_max_length\": 100,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 3,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Phone\",\n           \"field_name\": \"phoneNumber\",\n           \"field_type\": \"phone\",\n           \"field_regex\": \"\",\n           \"field_min_length\": 10,\n           \"field_max_length\": 100,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 4,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Birthdate\",\n           \"field_name\": \"birthdate\",\n           \"field_type\": \"date\",\n           \"field_format\": \"YYYY-MM-DD\",\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 4,\n           \"position_H\": 2,\n           \"regex_description\" : \"\"\n       },{\n           \"field_required\": false,\n           \"field_label\": \"Password\",\n           \"field_max_length\": 100,\n           \"field_min_length\": 1,\n           \"field_regex\": \"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9d]{8,}$\",\n           \"field_name\": \"password\",\n           \"field_type\": \"password\",\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 5,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Confirm Password\",\n           \"field_max_length\": 100,\n           \"field_min_length\": 1,\n           \"field_regex\": \"\",\n           \"field_name\": \"confirmPassword\",\n           \"field_type\": \"password\",\n           \"status\": \"Active\",\n           \"basic\": false\n       }, {\n           \"field_required\": true,\n           \"field_label\": \"Zip Code\",\n           \"field_max_length\": 100,\n           \"field_min_length\": 1,\n           \"field_regex\": \"\",\n           \"field_name\": \"zipcode\",\n           \"field_type\": \"text\",\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 6,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"I want to receive news & promotions\",\n           \"field_name\": \"advertisement\",\n           \"field_type\": \"checkbox\",\n           \"field_required\": false,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 7,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"Terms & Conditions\",\n           \"field_name\": \"termsAndConditionsRewardsUSA\",\n           \"field_type_name\": \"termsAndConditions\",\n           \"field_type\": \"checkbox\",\n           \"subplatform\": \"MyCooler\",\n           \"platform\": \"Rewards_USA\",\n           \"field_required\": true,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 8,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"Email Newsletter Notifications\",\n           \"field_name\": \"email_opt_in\",\n           \"field_type\": \"checkbox\",\n           \"field_required\": true,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 9,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"Push Notifications\",\n           \"field_name\": \"push_opt_in\",\n           \"field_type\": \"checkbox\",\n           \"field_required\": true,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 10,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"SMS Notifications\",\n           \"field_name\": \"sms_opt_in\",\n           \"field_type\": \"checkbox\",\n           \"field_required\": true,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 11,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }\n   ],\n   \"create_user\": \"yohisgil@gmail.com\"\n}",
+    "isBase64Encoded": false
+  },
+  "mockWithoutHeaders": {
+    "resource": "/schema",
+    "path": "/client/schema",
+    "httpMethod": "POST",
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Cache-Control": [
+        "no-cache"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Host": [
+        "us-qa-api.abi-rewards.de"
+      ],
+      "key": [
+        "abi-global-launchpad"
+      ],
+      "Postman-Token": [
+        "70cec0ed-5d7e-42f0-b3e0-f13433681dde"
+      ],
+      "token": [
+        "0be0f552db16cf5637e22bca5cabbd85"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.29.0"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61f00b5e-437384ec772b2a4c5172965e"
+      ],
+      "X-Forwarded-For": [
+        "201.221.176.42"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "l3xjex",
+      "authorizer": {
+        "numberKey": "123",
+        "booleanKey": "true",
+        "stringKey": "stringval",
+        "principalId": "user",
+        "integrationLatency": 919
+      },
+      "resourcePath": "/schema",
+      "httpMethod": "POST",
+      "extendedRequestId": "Mga2yGZgoAMFfew=",
+      "requestTime": "25/Jan/2022:14:38:22 +0000",
+      "path": "/client/schema",
+      "accountId": "957923038502",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "us-qa-api",
+      "requestTimeEpoch": 1643121502404,
+      "requestId": "4d652544-9e8e-4893-b960-053981a595d7",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "201.221.176.42",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.29.0",
+        "user": null
+      },
+      "domainName": "us-qa-api.abi-rewards.de",
+      "apiId": "6oz8mr0gq8"
+    },
+    "body": "{\n   \"platform\": \"Rewards_Test\",\n   \"program\": \"MyCooler_Prueba\",\n   \"client_structure\": [{\n           \"field_required\": true,\n           \"field_label\": \"Email\",\n           \"field_max_length\": 100,\n           \"field_min_length\": 1,\n           \"field_regex\": \"\",\n           \"field_name\": \"email\",\n           \"field_type\": \"text\",\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 1,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Name\",\n           \"field_name\": \"firstName\",\n           \"field_type\": \"text\",\n           \"field_regex\": \"[A-Za-zÀ-ÖØ-öø-ÿ ]*\",\n           \"field_min_length\": 1,\n           \"field_max_length\": 100,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 2,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Last Name\",\n           \"field_name\": \"lastName\",\n           \"field_type\": \"text\",\n           \"field_regex\": \"[A-Za-zÀ-ÖØ-öø-ÿ ]*\",\n           \"field_min_length\": 1,\n           \"field_max_length\": 100,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 3,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Phone\",\n           \"field_name\": \"phoneNumber\",\n           \"field_type\": \"phone\",\n           \"field_regex\": \"\",\n           \"field_min_length\": 10,\n           \"field_max_length\": 100,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 4,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Birthdate\",\n           \"field_name\": \"birthdate\",\n           \"field_type\": \"date\",\n           \"field_format\": \"YYYY-MM-DD\",\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 4,\n           \"position_H\": 2,\n           \"regex_description\" : \"\"\n       },{\n           \"field_required\": false,\n           \"field_label\": \"Password\",\n           \"field_max_length\": 100,\n           \"field_min_length\": 1,\n           \"field_regex\": \"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9d]{8,}$\",\n           \"field_name\": \"password\",\n           \"field_type\": \"password\",\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 5,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_required\": false,\n           \"field_label\": \"Confirm Password\",\n           \"field_max_length\": 100,\n           \"field_min_length\": 1,\n           \"field_regex\": \"\",\n           \"field_name\": \"confirmPassword\",\n           \"field_type\": \"password\",\n           \"status\": \"Active\",\n           \"basic\": false\n       }, {\n           \"field_required\": true,\n           \"field_label\": \"Zip Code\",\n           \"field_max_length\": 100,\n           \"field_min_length\": 1,\n           \"field_regex\": \"\",\n           \"field_name\": \"zipcode\",\n           \"field_type\": \"text\",\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 6,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"I want to receive news & promotions\",\n           \"field_name\": \"advertisement\",\n           \"field_type\": \"checkbox\",\n           \"field_required\": false,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 7,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"Terms & Conditions\",\n           \"field_name\": \"termsAndConditionsRewardsUSA\",\n           \"field_type_name\": \"termsAndConditions\",\n           \"field_type\": \"checkbox\",\n           \"subplatform\": \"MyCooler\",\n           \"platform\": \"Rewards_USA\",\n           \"field_required\": true,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 8,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"Email Newsletter Notifications\",\n           \"field_name\": \"email_opt_in\",\n           \"field_type\": \"checkbox\",\n           \"field_required\": true,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 9,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"Push Notifications\",\n           \"field_name\": \"push_opt_in\",\n           \"field_type\": \"checkbox\",\n           \"field_required\": true,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 10,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }, {\n           \"field_label\": \"SMS Notifications\",\n           \"field_name\": \"sms_opt_in\",\n           \"field_type\": \"checkbox\",\n           \"field_required\": true,\n           \"status\": \"Active\",\n           \"basic\": true,\n           \"position_V\": 11,\n           \"position_H\": 1,\n           \"regex_description\" : \"\"\n       }\n   ],\n   \"create_user\": \"yohisgil@gmail.com\"\n}",
+    "isBase64Encoded": false
+  }
+}

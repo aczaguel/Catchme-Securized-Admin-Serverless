@@ -1,0 +1,41 @@
+{
+  "mock": {
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "cf085b15-bd91-4751-a419-152bea983084",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b74-55e5f1690cf2fa3c0571f5a6",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "body": "{\n      \"firstName\": \"Maria\",\n      \"lastName\": \"Paz \",\n      \"birthdate\": \"1985-01-26\",\n      \"gender\": \"Female\",\n      \"email\": \"johanaandregil@gmail.com\",\n      \"password\": \"Enero2022\",\n      \"phoneNumber\": \"+573113632174\",\n      \"zipcode\": \"01001\",\n      \"advertisement\": true,\n      \"termsAndConditions\": {\n        \"platform\": \"Rewards_USA\",\n        \"subplatform\": \"MyCooler\"\n      },\n      \"origin\": \"web\",\n      \"country\": \"USA\",\n      \"platform\": \"Rewards_USA\",\n      \"migration_tier\": \"NA\",\n      \"migration_points\": 0,\n      \"origin_platform_type\": \"Rewards_USA\",\n      \"rewards_platform_id\": \"Rewards_USA\",\n      \"rewards_program_id\": \"MyCooler\",\n      \"signup_campaign\": \"NA\",\n      \"registration_device_id\": \"ab4d4c49-0d53-48c8-9e90-182a8a9cb9c8\",\n      \"registration_device_model\": \"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36\",\n      \"registration_device_platform\": \"Win32\",\n      \"registration_device_os\": \"Windows\",\n      \"is_active\": true,\n      \"origin_product_OwnerId\": \"Rewards_USA\",\n      \"agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36\",\n      \"origin_url\": \"https://qa-mycooler.abi-rewards.de/signup\",\n      \"program\": \"MyCooler\",\n      \"locale\": \"en-US\",\n      \"create_sso\": true,\n      \"state\": \"Massachusetts\",\n      \"city\": \"Agawam\",\n      \"user_id_sessionm\": \"\",\n      \"referrer_code\": \"\",\n      \"referred_code\": false,\n      \"verified\": false,\n      \"onboarding\": false,\n      \"user\": \"johanaandregil@gmail.com\"\n    }"
+  },
+  "mockWithoutHeaders": {
+    "body": "{\n      \"firstName\": \"Maria\",\n      \"lastName\": \"Paz \",\n      \"birthdate\": \"1985-01-26\",\n      \"gender\": \"Female\",\n      \"email\": \"johanaandregil@gmail.com\",\n      \"password\": \"Enero2022\",\n      \"phoneNumber\": \"+573113632174\",\n      \"zipcode\": \"01001\",\n      \"advertisement\": true,\n      \"termsAndConditions\": {\n        \"platform\": \"Rewards_USA\",\n        \"subplatform\": \"MyCooler\"\n      },\n      \"origin\": \"web\",\n      \"country\": \"USA\",\n      \"platform\": \"Rewards_USA\",\n      \"migration_tier\": \"NA\",\n      \"migration_points\": 0,\n      \"origin_platform_type\": \"Rewards_USA\",\n      \"rewards_platform_id\": \"Rewards_USA\",\n      \"rewards_program_id\": \"MyCooler\",\n      \"signup_campaign\": \"NA\",\n      \"registration_device_id\": \"ab4d4c49-0d53-48c8-9e90-182a8a9cb9c8\",\n      \"registration_device_model\": \"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36\",\n      \"registration_device_platform\": \"Win32\",\n      \"registration_device_os\": \"Windows\",\n      \"is_active\": true,\n      \"origin_product_OwnerId\": \"Rewards_USA\",\n      \"agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36\",\n      \"origin_url\": \"https://qa-mycooler.abi-rewards.de/signup\",\n      \"program\": \"MyCooler\",\n      \"locale\": \"en-US\",\n      \"create_sso\": true,\n      \"state\": \"Massachusetts\",\n      \"city\": \"Agawam\",\n      \"user_id_sessionm\": \"\",\n      \"referrer_code\": \"\",\n      \"referred_code\": false,\n      \"verified\": false,\n      \"onboarding\": false,\n      \"user\": \"johanaandregil@gmail.com\"\n    }"
+  },
+  "mockTAndC": {
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "cf085b15-bd91-4751-a419-152bea983084",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b74-55e5f1690cf2fa3c0571f5a6",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "body": "{\"user\": \"yohisgil@gmail.com\",\"platform\": \"Rewards_USA\",\"program\": \"MyCooler\",\"origin\": \"app\",\"agent\": \"PostmanRuntime/7.28.3\",\"termsAndConditions\":[{\"platform\":\"sdfasdf\",\"subplatform\":\"asdfag\",\"url\":\"asdfs.com\"}]}"
+  }
+}
