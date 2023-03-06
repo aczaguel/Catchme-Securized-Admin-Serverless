@@ -1,0 +1,35 @@
+{
+    "body": {
+        "id": "body",
+        "type": "object",
+        "required": [
+            "user",
+            "platform",
+            "program",
+            "origin",
+            "campaign"
+        ],
+        "properties": {
+            "user":{
+                "type": "string",
+                "format": "email"
+            },
+            "platform":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "program":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "campaign":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "origin": {
+                "type": "string",
+                "enum": ["app", "web"]
+            }
+        }
+    }
+}

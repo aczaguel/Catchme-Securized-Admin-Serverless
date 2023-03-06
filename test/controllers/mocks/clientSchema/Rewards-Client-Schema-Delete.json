@@ -1,0 +1,274 @@
+{
+  "mock": {
+    "resource": "/schema/{id}",
+    "path": "/client/schema/615e6903dca1180008ebfeec",
+    "httpMethod": "DELETE",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "512833ff-d493-4fa8-9417-aed4d35f40f3",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b66-7c06fc9607060a1919e2d27e",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Cache-Control": [
+        "no-cache"
+      ],
+      "Host": [
+        "us-qa-api.abi-rewards.de"
+      ],
+      "key": [
+        "abi-global-launchpad"
+      ],
+      "Postman-Token": [
+        "512833ff-d493-4fa8-9417-aed4d35f40f3"
+      ],
+      "token": [
+        "0be0f552db16cf5637e22bca5cabbd85"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.29.0"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61f00b66-7c06fc9607060a1919e2d27e"
+      ],
+      "X-Forwarded-For": [
+        "201.221.176.42"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": {
+      "id": "615e6903dca1180008ebfeec"
+    },
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "cof8dg",
+      "authorizer": {
+        "numberKey": "123",
+        "booleanKey": "true",
+        "stringKey": "stringval",
+        "principalId": "user",
+        "integrationLatency": 83
+      },
+      "resourcePath": "/schema/{id}",
+      "httpMethod": "DELETE",
+      "extendedRequestId": "Mga4BEdvIAMF12A=",
+      "requestTime": "25/Jan/2022:14:38:30 +0000",
+      "path": "/client/schema/615e6903dca1180008ebfeec",
+      "accountId": "957923038502",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "us-qa-api",
+      "requestTimeEpoch": 1643121510327,
+      "requestId": "4ea8a3a4-e0d8-496c-b071-53e55a323b30",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "201.221.176.42",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.29.0",
+        "user": null
+      },
+      "domainName": "us-qa-api.abi-rewards.de",
+      "apiId": "6oz8mr0gq8"
+    },
+    "body": null,
+    "isBase64Encoded": false
+  },
+  "mockWithBody": {
+    "resource": "/schema/{id}",
+    "path": "/client/schema/615e6903dca1180008ebfeec",
+    "httpMethod": "DELETE",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "512833ff-d493-4fa8-9417-aed4d35f40f3",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b66-7c06fc9607060a1919e2d27e",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Cache-Control": [
+        "no-cache"
+      ],
+      "Host": [
+        "us-qa-api.abi-rewards.de"
+      ],
+      "key": [
+        "abi-global-launchpad"
+      ],
+      "Postman-Token": [
+        "512833ff-d493-4fa8-9417-aed4d35f40f3"
+      ],
+      "token": [
+        "0be0f552db16cf5637e22bca5cabbd85"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.29.0"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61f00b66-7c06fc9607060a1919e2d27e"
+      ],
+      "X-Forwarded-For": [
+        "201.221.176.42"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": {
+      "id": "615e6903dca1180008ebfeec"
+    },
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "cof8dg",
+      "authorizer": {
+        "numberKey": "123",
+        "booleanKey": "true",
+        "stringKey": "stringval",
+        "principalId": "user",
+        "integrationLatency": 83
+      },
+      "resourcePath": "/schema/{id}",
+      "httpMethod": "DELETE",
+      "extendedRequestId": "Mga4BEdvIAMF12A=",
+      "requestTime": "25/Jan/2022:14:38:30 +0000",
+      "path": "/client/schema/615e6903dca1180008ebfeec",
+      "accountId": "957923038502",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "us-qa-api",
+      "requestTimeEpoch": 1643121510327,
+      "requestId": "4ea8a3a4-e0d8-496c-b071-53e55a323b30",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "201.221.176.42",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.29.0",
+        "user": null
+      },
+      "domainName": "us-qa-api.abi-rewards.de",
+      "apiId": "6oz8mr0gq8"
+    },
+    "body": [{
+      "field_name": "name"
+    }],
+    "isBase64Encoded": false
+  },
+  "schemaResults":
+  [
+    {
+      "_id": "61980a46d3829d00094dc806",
+      "platform": "Rewards_Prueba",
+      "program": "MyCooler_Prueba",
+      "client_structure": [
+        [
+          {
+            "field_name": "name"
+          }
+        ]
+      ],
+      "create_user": "yohisgi8596@gmail.com",
+      "create_date": "19/11/2021 14:34:14"
+    }
+  ],
+  "deleteResultMock": {
+    "result": {
+      "n": 1,
+      "electionId": "7fffffff0000000000000004",
+      "opTime": {
+        "ts": "7032382122492952577",
+        "t": 4
+      },
+      "ok": 1,
+      "$clusterTime": {
+        "clusterTime": "7032382122492952577",
+        "signature": {
+          "hash": "lVHUVofmlapBlMgq9pWi2naMJXY=",
+          "keyId": "7013404727891197954"
+        }
+      },
+      "operationTime": "7032382122492952577"
+    },
+    "connection": {
+      "_events": {},
+      "_eventsCount": 4,
+      "id": 1,
+      "address": "52.203.156.2:27017",
+      "bson": {},
+      "socketTimeout": 0,
+      "host": "us-qa-shard-00-01.wiydy.mongodb.net",
+      "port": 27017,
+      "monitorCommands": false,
+      "closed": false,
+      "destroyed": false,
+      "lastIsMasterMS": 2
+    },
+    "deletedCount": 1,
+    "n": 1,
+    "electionId": "7fffffff0000000000000004",
+    "opTime": {
+      "ts": "7032382122492952577",
+      "t": 4
+    },
+    "ok": 1,
+    "$clusterTime": {
+      "clusterTime": "7032382122492952577",
+      "signature": {
+        "hash": "lVHUVofmlapBlMgq9pWi2naMJXY=",
+        "keyId": "7013404727891197954"
+      }
+    },
+    "operationTime": "7032382122492952577"
+  }
+}

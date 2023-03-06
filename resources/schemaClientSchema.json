@@ -1,0 +1,257 @@
+{
+    "insert": {
+        "id": "body",
+        "type": "object",
+        "required": [
+            "platform","program","client_structure","create_user"
+        ],
+        "properties": {
+            "platform":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "program":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "client_structure":{
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "required": [
+                        "field_required", "field_name", "field_label", "field_type", "status", "basic"
+                    ],
+                    "properties":{
+                        "field_required":{
+                            "type": "bool"
+                        },
+                        "field_label":{
+                            "type": "string",
+                            "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+                        },
+                        "field_max_length":{
+                            "type": "number",
+                            "format": "integer"
+                        },
+                        "field_min_length":{
+                            "type": "number",
+                            "format": "integer"
+                        },
+                        "field_regex":{
+                            "type": "string"
+                        },
+                        "field_name":{
+                            "type": "string",
+                            "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*",
+                            "minLength" : 1,
+                            "maxLength": 100
+                        },
+                        "field_type": {
+                            "type": "string",
+                            "enum": [
+                                "text",
+                                "phone",
+                                "date",
+                                "password",
+                                "number",
+                                "checkbox",
+                                "select",
+                                "termsAndConditions"
+                            ]
+                        },
+                        "status" : {
+                            "type": "string",
+                            "enum": [
+                                "Active",
+                                "Inactive"
+                            ]
+                        },
+                        "create_user":{
+                            "type": "string",
+                            "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*",
+                            "minLength" : 1,
+                            "maxLength": 100
+                        },
+                        "basic" : {
+                            "type": "boolean"
+                        },
+                        "position_V":{
+                            "type": "number",
+                            "format": "integer"
+                        },
+                        "position_H":{
+                            "type": "number",
+                            "format": "integer"
+                        },
+                        "regex_description":{
+                            "type": "string"
+                        },
+                        "place_holder":{
+                            "type": "string"
+                        }
+                    },
+                    "if":{
+                        "properties": {
+                            "basic": { "const": true }
+                        }
+                    },
+                    "then":{
+                        "required": ["position_V", "position_H", "regex_description"]
+                    }
+    
+                }
+            },
+            "create_user":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*",
+                "minLength" : 1,
+                "maxLength": 100
+            }
+        },
+        "additionalProperties": false
+    },
+    "update": {
+        "id": "body",
+        "type": "object",
+        "required":["client_structure","update_user", "platform", "program"],
+        "properties": {
+            "client_structure":{
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "required": [
+                        "field_required", "field_name", "field_label", "field_type", "status", "basic"
+                    ],
+                    "properties":{
+                        "field_required":{
+                            "type": "bool"
+                        },
+                        "field_label":{
+                            "type": "string",
+                            "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+                        },
+                        "field_max_length":{
+                            "type": "number",
+                            "format": "integer"
+                        },
+                        "field_min_length":{
+                            "type": "number",
+                            "format": "integer"
+                        },
+                        "field_regex":{
+                            "type": "string"
+                        },
+                        "field_name":{
+                            "type": "string",
+                            "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*",
+                            "minLength" : 1,
+                            "maxLength": 100
+                        },
+                        "field_type": {
+                            "type": "string",
+                            "enum": [
+                                "text",
+                                "phone",
+                                "date",
+                                "password",
+                                "number",
+                                "checkbox",
+                                "select",
+                                "termsAndConditions"
+                            ]
+                        },
+                        "status" : {
+                            "type": "string",
+                            "enum": [
+                                "Active",
+                                "Inactive"
+                            ]
+                        },
+                        "create_user":{
+                            "type": "string",
+                            "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*",
+                            "minLength" : 1,
+                            "maxLength": 100
+                        },
+                        "basic" : {
+                            "type": "boolean"
+                        },
+                        "position_V":{
+                            "type": "number",
+                            "format": "integer"
+                        },
+                        "position_H":{
+                            "type": "number",
+                            "format": "integer"
+                        },
+                        "regex_description":{
+                            "type": "string"
+                        },
+                        "place_holder":{
+                            "type": "string"
+                        }
+                    },
+                    "if":{
+                        "properties": {
+                            "basic": { "const": true }
+                        }
+                    },
+                    "then":{
+                        "required": ["position_V", "position_H", "regex_description"]
+                    }
+                }
+            },
+            "update_user":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "platform":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "program":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            }
+            
+        },
+        "additionalProperties": false
+    },
+    "path": {
+        "id": "pathParameters",
+        "type": "object",
+        "required": [
+            "id"
+        ],
+        "properties": {
+            "id":{
+                "type": "string"
+            }
+        }
+    },
+    "query": {
+        "id": "queryString",
+        "type": "object",
+        "required": [
+            "platform",
+            "program"
+        ],
+        "properties": {
+            "platform":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "program":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "status" : {
+                "type": "string",
+                "enum": [
+                    "Active",
+                    "Inactive"
+                ]
+            }
+        }
+    }
+}

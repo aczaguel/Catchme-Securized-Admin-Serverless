@@ -1,0 +1,127 @@
+{
+  "mock": {
+    "resource": "/",
+    "path": "/client",
+    "httpMethod": "PUT",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "cf085b15-bd91-4751-a419-152bea983084",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b74-55e5f1690cf2fa3c0571f5a6",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Cache-Control": [
+        "no-cache"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Host": [
+        "us-qa-api.abi-rewards.de"
+      ],
+      "key": [
+        "abi-global-launchpad"
+      ],
+      "Postman-Token": [
+        "cf085b15-bd91-4751-a419-152bea983084"
+      ],
+      "token": [
+        "0be0f552db16cf5637e22bca5cabbd85"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.29.0"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61f00b74-55e5f1690cf2fa3c0571f5a6"
+      ],
+      "X-Forwarded-For": [
+        "201.221.176.42"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "anrf6hj4p4",
+      "authorizer": {
+        "numberKey": "123",
+        "booleanKey": "true",
+        "stringKey": "stringval",
+        "principalId": "user",
+        "integrationLatency": 128
+      },
+      "resourcePath": "/",
+      "httpMethod": "PUT",
+      "extendedRequestId": "Mga6KHHWIAMFlhw=",
+      "requestTime": "25/Jan/2022:14:38:44 +0000",
+      "path": "/client",
+      "accountId": "957923038502",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "us-qa-api",
+      "requestTimeEpoch": 1643121524046,
+      "requestId": "17ce77df-4921-48b9-a851-4cb53f3c2445",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "201.221.176.42",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.29.0",
+        "user": null
+      },
+      "domainName": "us-qa-api.abi-rewards.de",
+      "apiId": "6oz8mr0gq8"
+    },
+    "body": "{\"user\": \"yohisgil@gmail.com\",\"platform\": \"Rewards_USA\",\"program\": \"MyCooler\",\"origin\": \"app\",\"agent\": \"PostmanRuntime/7.28.3\"}",
+    "isBase64Encoded": false
+  },
+  "mockTAndC": {
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "us-qa-api.abi-rewards.de",
+      "key": "abi-global-launchpad",
+      "Postman-Token": "cf085b15-bd91-4751-a419-152bea983084",
+      "token": "0be0f552db16cf5637e22bca5cabbd85",
+      "User-Agent": "PostmanRuntime/7.29.0",
+      "X-Amzn-Trace-Id": "Root=1-61f00b74-55e5f1690cf2fa3c0571f5a6",
+      "X-Forwarded-For": "201.221.176.42",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "body": "{\"user\": \"yohisgil@gmail.com\",\"platform\": \"Rewards_USA\",\"program\": \"MyCooler\",\"origin\": \"app\",\"agent\": \"PostmanRuntime/7.28.3\",\"termsAndConditions\":[{\"platform\":\"sdfasdf\",\"subplatform\":\"asdfag\",\"url\":\"asdfs.com\"}]}"
+  },
+  "mockWithoutHeaders": {
+    "body": "{\"user\": \"yohisgil@gmail.com\",\"platform\": \"Rewards_USA\",\"program\": \"MyCooler\",\"origin\": \"app\",\"agent\": \"PostmanRuntime/7.28.3\",\"termsAndConditions\":[{\"platform\":\"sdfasdf\",\"subplatform\":\"asdfag\",\"url\":\"asdfs.com\"}]}"
+  }
+}

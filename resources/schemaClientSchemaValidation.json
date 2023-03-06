@@ -1,0 +1,23 @@
+{
+    "query": {
+        "id": "queryString",
+        "type": "object",
+        "required": [
+            "platform", "program"
+        ],
+        "properties": {
+            "platform": {
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "program": {
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "email": {
+                "type": "string",
+                "format": "email"
+            }
+        }
+    }
+}

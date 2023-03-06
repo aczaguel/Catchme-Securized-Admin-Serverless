@@ -1,0 +1,98 @@
+{
+    "insert": {
+        "id": "body",
+        "type": "object",
+        "required": [
+            "user",
+            "platform",
+            "password",
+            "phoneNumber",
+            "program",
+            "origin",
+            "agent"
+        ],
+        "properties": {
+            "user":{
+                "type": "string",
+                "format": "email"
+            },
+            "platform":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "program":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "password":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "phoneNumber":{
+                "type": "string",
+                "pattern": "^[0-9\\-\\+]{9,15}$"
+            },
+            "origin": {
+                "type": "string",
+                "enum": ["app", "web"]
+            },
+            "agent":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "termsAndConditions":[
+                {
+                    "type": "object",
+                    "required": [
+                        "platform"
+                    ],
+                    "properties": {
+                        "platform":{
+                            "type": "string"
+                        }
+                    }
+                },
+                {
+                    "type": "array",
+                    "required": [
+                        "platform"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "platform"
+                        ],
+                        "properties": {
+                            "platform":{
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "query": {
+        "id": "queryString",
+        "type": "object",
+        "required": [
+            "user",
+            "platform",
+            "program"
+        ],
+        "properties": {
+            "user":{
+                "type": "string",
+                "format": "email"
+            },
+            "platform":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "program":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            }
+        }
+    }
+}

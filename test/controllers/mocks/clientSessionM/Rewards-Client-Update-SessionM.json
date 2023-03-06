@@ -1,0 +1,24 @@
+{
+  "mock": {
+    "program": "MyCooler",
+    "platform": "Rewards_USA",
+    "agent": "PostmanRuntime/7.28.3",
+    "user_id_sessionm": "a06e8144-808a-11ec-94d9-63cdc1f6ea09",
+    "address": "address",
+    "city": "city",
+    "zipcode": "zipcode",
+    "state": "state",
+    "firstName": "firstName",
+    "lastName": "lastName",
+    "birthdate": "birthdate",
+    "treasure_data_id": true,
+    "gender": "gender",
+    "user": {
+      "identifiers": []
+    }
+  },
+  "mockWithHeaders": {
+    "headers": {},
+    "body": "{    \"program\": \"MyCooler\",    \"platform\": \"Rewards_USA\",    \"agent\": \"PostmanRuntime/7.28.3\",    \"user_id_sessionm\": \"a06e8144-808a-11ec-94d9-63cdc1f6ea09\"}"
+  }
+}

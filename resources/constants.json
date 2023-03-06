@@ -1,0 +1,111 @@
+{
+    "default_platform" : "default",
+    "field_status_active": "Active",
+    "field_basic_true": true,
+    "field_terms_and_conditions": "termsAndConditions",
+    "field_password": "password",
+    "field_type_bool": "bool",
+    "field_name_email": "email",
+    "fields_no_empty": ["fullName","firstName","firstName","zipcode"],
+    "projection_client":{ 
+        "projection": {
+            "confirmPassword": 0,
+            "create_date": 0,
+            "last_update_date": 0,
+            "password": 0,
+            "_id": 0
+        }
+    },
+    "projection_client_search":{ 
+        "projection": {
+            "confirmPassword": 0,
+            "create_date": 0,
+            "last_update_date": 0,
+            "password": 0
+        }
+    },
+    "projection_login_frequency":{ 
+        "projection": {
+            "create_date": 0,
+            "last_update_date": 0,
+            "_id": 0
+        }
+    },
+    "field_types":{
+        "text": "text",
+        "phone": "phone",
+        "date": "date",
+        "number": "number",
+        "password": "password",
+        "checkbox": "checkbox",
+        "select": "select",
+        "termsAndConditions": "termsAndConditions"
+    },
+    "fields_ignored":["password","confirmPassword","create_sso"],
+    "fields_additional_client":[{
+        "field_name": "external_id",
+        "property": {
+            "type": "string",
+            "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+        }
+    }],
+    "fields_ignored_in_schema":["confirmPassword"],
+    "fields_required":["platform","program","origin","agent", "user"],
+    "SSO":{
+        "headers": {
+            "x-sso-region": "Europe",
+            "x-sso-lang": "en",
+            "x-sso-comname": "",
+            "authorization": ""
+        }
+    },
+    "SessionM":{
+        "fetch_accounts": {
+            "retailer_id": "",
+            "take": 10,
+            "sort_direction": "asc",
+            "sort_column": "Name",
+            "include_expiration_policy": true,
+            "include_point_sources": true,
+            "include_restrictions": true
+        },
+        "fetch_tiers": {
+            "retailer_id": "",
+            "tier_system_id": ""
+        },
+        "update_fields":[
+            "address", 
+            "city", 
+            "zipcode", 
+            "state", 
+            "origin_product_OwnerId", 
+            "program", 
+            "origin_url", 
+            "platform", 
+            "agent",
+            "terms_conditions", 
+            "sms_opt_in", 
+            "push_opt_in", 
+            "email_opt_in", 
+            "termsAndConditions",
+            "origin_platform_type",
+            "is_active",
+            "firstName",
+            "lastName",
+            "birthdate",
+            "do_not_sell",
+            "treasure_data_id",
+            "gender"
+        ]
+    },
+    "historical_status_registered": "registered",
+    "campaign_status_registered": "registered",
+    "campaign_status_confirmed": "confirmed",
+    "type_signup_campaign_external": "external",
+    "type_signup_campaign_internal": "internal",
+    "signup_campaign_na": "NA",
+    "phonenumber_default": "+555555555555",
+    "text_promo":"ABINBEV2022"
+
+
+}

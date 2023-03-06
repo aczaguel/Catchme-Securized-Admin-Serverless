@@ -1,0 +1,127 @@
+{
+  "mock": {
+    "user": "siban.martin@globant.com",
+    "platform": "Rewards_USA",
+    "program": "MyCooler",
+    "phoneNumber": "+573004666255",
+    "password": "Test123",
+    "advertisement": true,
+    "privacy_policy": true,
+    "origin": "web",
+    "agent": "AWS Lambda",
+    "termsAndConditions": [
+      {
+        "platform": "Rewards_USA",
+        "subplatform": "MyCooler",
+        "url": "https://www.mycooler.com/en/terms-conditions.html",
+        "status": true,
+        "date": "2/2/2022 7:28:22"
+      }
+    ]
+  },
+  "mockWithoutHeaders": {
+    "headers": {
+      "x-sso-region": "NorthAmerica",
+      "x-sso-lang": "en"
+    },
+    "body":"{    \"user\": \"siban.martin@globant.com\",    \"platform\": \"Rewards_USA\",    \"program\": \"MyCooler\",    \"phoneNumber\": \"+573004666255\",    \"password\": \"Test123\",    \"advertisement\": true,    \"privacy_policy\": true,    \"origin\": \"web\",    \"agent\": \"AWS Lambda\",    \"termsAndConditions\": [        {            \"platform\": \"Rewards_USA\",            \"subplatform\": \"MyCooler\",            \"url\": \"https://www.mycooler.com/en/terms-conditions.html\",            \"status\": true,            \"date\": \"2/2/2022 7:28:22\"        }    ]}"
+  },
+  "mockWithoutHeadersUser": {
+    "headers": {
+      "x-sso-region": "NorthAmerica",
+      "x-sso-lang": "en",
+      "user": "leidy"
+    },
+    "body":"{    \"user\": \"siban.martin@globant.com\",    \"platform\": \"Rewards_USA\",    \"program\": \"MyCooler\",    \"phoneNumber\": \"+573004666255\",    \"password\": \"Test123\",    \"advertisement\": true,    \"privacy_policy\": true,    \"origin\": \"web\",    \"agent\": \"AWS Lambda\",    \"termsAndConditions\": [        {            \"platform\": \"Rewards_USA\",            \"subplatform\": \"MyCooler\",            \"url\": \"https://www.mycooler.com/en/terms-conditions.html\",            \"status\": true,            \"date\": \"2/2/2022 7:28:22\"        }    ]}"
+  },
+  "mockWithUserSame": {
+    "headers": {
+      "x-sso-region": "NorthAmerica",
+      "x-sso-lang": "en",
+      "user": "siban.martin@globant.com"
+    },
+    "body":"{    \"user\": \"siban.martin@globant.com\",    \"platform\": \"Rewards_USA\",    \"program\": \"MyCooler\",    \"phoneNumber\": \"+573004666255\",    \"password\": \"Test123\",    \"advertisement\": true,    \"privacy_policy\": true,    \"origin\": \"web\",    \"agent\": \"AWS Lambda\",    \"termsAndConditions\": [        {            \"platform\": \"Rewards_USA\",            \"subplatform\": \"MyCooler\",            \"url\": \"https://www.mycooler.com/en/terms-conditions.html\",            \"status\": true,            \"date\": \"2/2/2022 7:28:22\"        }    ]}"
+  },
+  "results": [
+    {
+      "_id": "61f858b06f03b000093648d0",
+      "external_id": "123456789",
+      "email": "siban.martin@globant.com",
+      "firstName": "Mariano",
+      "lastName": "Siban",
+      "phoneNumber": "+573004666255",
+      "birthdate": "1985-04-24",
+      "zipcode": "74011",
+      "termsAndConditions": [],
+      "advertisement": true,
+      "origin": "web",
+      "country": "USA",
+      "platform": "Rewards_USA",
+      "migration_tier": "NA",
+      "migration_points": 0,
+      "origin_platform_type": "Rewards_USA",
+      "rewards_platform_id": "Rewards_USA",
+      "rewards_program_id": "MyCooler",
+      "signup_campaign": "NA",
+      "registration_device_id": "501006464537369204515159537367804093171",
+      "registration_device_model": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 OPR/78.0.4093.171",
+      "registration_device_platform": "Win32",
+      "registration_device_os": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 OPR/78.0.4093.171",
+      "is_active": true,
+      "origin_product_OwnerId": "Rewards_USA",
+      "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 OPR/78.0.4093.171",
+      "origin_url": "http://localhost:4200",
+      "program": "MyCooler",
+      "locale": "en-US",
+      "gender": true,
+      "state": "Oklahoma",
+      "city": "Broken Arrow",
+      "user_id_sessionm": "3ce76418-82df-11ec-8838-ed9a9444e795",
+      "referrer_code": "MARIANOS-C6B560",
+      "referred_code": false,
+      "verified": false,
+      "onboarding": false,
+      "user": "siban.martin@globant.com",
+      "historical": true,
+      "historical_status": "registered",
+      "create_date": "31/1/2022 15:46:25",
+      "last_update_date": "31/1/2022 15:46:30"
+    }
+  ],
+  "APIFirstRequest": {
+    "url": "undefinedprocess.env.SSO_RELATIVE_URL_SINGUP",
+    "method": "POST",
+    "data": {
+      "email": "siban.martin@globant.com",
+      "password": "Test123",
+      "firstName": "Mariano",
+      "lastName": "Siban",
+      "phoneNumber": "+573004666255",
+      "birthdate": "1985-04-24",
+      "termsAndConditions": [],
+      "advertisement": true,
+      "origin": "web",
+      "country": "USA"
+    },
+    "headers": {
+      "x-sso-region": "NorthAmerica",
+      "x-sso-lang": "en"
+    }
+  },
+  "APIFirstResponse": {"statusCode": 200},
+  "APISecondRequest": {
+    "url": "undefinedprocess.env.SSO_RELATIVE_URL_SINGUP",
+    "method": "PUT",
+    "data": {
+      "user": {
+        "phone_numbers": [
+          "Array"
+        ]
+      }
+    },
+    "auth": {
+      "username": "1324",
+      "password": "aef34513ef"
+    }
+  }
+}

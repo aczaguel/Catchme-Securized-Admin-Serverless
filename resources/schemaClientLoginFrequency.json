@@ -1,0 +1,95 @@
+{
+    "insert": {
+        "id": "body",
+        "type": "object",
+        "required": [
+            "platform",
+            "time",
+            "time_zone",
+            "program",
+            "origin",
+            "agent"
+        ],
+        "properties": {
+            "user":{
+                "type": "string",
+                "format": "email"
+            },
+            "platform":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "time":{
+                "type": "integer"
+            },
+            "time_zone":{
+                "type": "string",
+                "enum":[
+                    "America/Anchorage",
+                    "America/Juneau",
+                    "America/Metlakatla",
+                    "America/Nome",
+                    "America/Sitka",
+                    "America/Yakutat",
+                    "America/Los_Angeles",
+                    "America/Tijuana",
+                    "America/Boise",
+                    "America/Chihuahua",
+                    "America/Denver",
+                    "America/Hermosillo",
+                    "America/Mazatlan",
+                    "America/Ojinaga",
+                    "America/Phoenix",
+                    "America/Bahia_Banderas",
+                    "America/Chicago",
+                    "America/Indiana/Knox",
+                    "America/Indiana/Tell_City",
+                    "America/Matamoros",
+                    "America/Menominee",
+                    "America/Merida",
+                    "America/Mexico_City",
+                    "America/Monterrey",
+                    "America/North_Dakota/Beulah",
+                    "America/North_Dakota/Center",
+                    "America/North_Dakota/New_Salem",
+                    "America/Cancun",
+                    "America/Detroit",
+                    "America/Indiana/Indianapolis",
+                    "America/Indiana/Marengo",
+                    "America/Indiana/Petersburg",
+                    "America/Indiana/Vevay",
+                    "America/Indiana/Vincennes",
+                    "America/Indiana/Winamac",
+                    "America/Kentucky/Louisville",
+                    "America/Kentucky/Monticello",
+                    "America/New_York"
+                ]
+            },
+            "program":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            },
+            "origin": {
+                "type": "string",
+                "enum": ["app", "web"]
+            },
+            "agent":{
+                "type": "string",
+                "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*"
+            }
+        },
+        "additionalProperties": false
+    },
+    "query": {
+        "id": "queryString",
+        "type": "object",
+        "required": [
+        ],
+        "properties": {
+            "user":{
+                "type": "string",
+                "format": "email"
+            }
+        }
+    }
+}

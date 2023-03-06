@@ -1,0 +1,557 @@
+{
+  "mock": [
+    {
+      "field_type": "text",
+      "field_label": "First Name",
+      "field_name": "firstName",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "field_regex": "",
+      "regex_description": "Must be a string without numbers and special characters",
+      "field_min_length": 1,
+      "field_max_length": 100,
+      "position_H": 1,
+      "position_V": 1,
+      "place_holder": "Laura"
+    },
+    {
+      "field_type": "text",
+      "field_label": "Last Name",
+      "field_name": "lastName",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "field_regex": "",
+      "regex_description": "Must be a string without numbers and special characters",
+      "field_min_length": 1,
+      "field_max_length": 100,
+      "position_H": 1,
+      "position_V": 2,
+      "place_holder": "Gil"
+    },
+    {
+      "field_type": "date",
+      "field_label": "Birthdate",
+      "field_name": "birthdate",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "regex_description": "",
+      "field_format": "MM/DD/YYYY",
+      "position_H": 1,
+      "position_V": 3
+    },
+    {
+      "field_type": "select",
+      "field_label": "Gender",
+      "field_name": "gender",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "regex_description": "",
+      "field_items": [
+        {
+          "value": "Male",
+          "order": 1
+        },
+        {
+          "value": "Female",
+          "order": 2
+        },
+        {
+          "value": "Non-Binary",
+          "order": 3
+        }
+      ],
+      "position_H": 1,
+      "position_V": 4
+    },
+    {
+      "field_type": "text",
+      "field_label": "Email",
+      "field_name": "email",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "field_regex": "",
+      "regex_description": "",
+      "position_H": 1,
+      "position_V": 5,
+      "place_holder": "user1@domain.com"
+    },
+    {
+      "field_type": "password",
+      "field_label": "Password",
+      "field_name": "password",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "field_regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9d]{8,}$",
+      "regex_description": "Must contain at least eight characters, at least one number and both lower and uppercase letters",
+      "field_min_length": 1,
+      "field_max_length": 100,
+      "position_H": 1,
+      "position_V": 6
+    },
+    {
+      "field_type": "termsAndConditions",
+      "field_label": "termsAndConditions",
+      "field_name": "termsAndConditions",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "field_regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9d]{8,}$",
+      "regex_description": "Must contain at least eight characters, at least one number and both lower and uppercase letters",
+      "field_min_length": 1,
+      "field_max_length": 100,
+      "position_H": 1,
+      "position_V": 6
+    },
+    {
+      "field_type": "password",
+      "field_label": "Confirm Password",
+      "field_name": "confirmPassword",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "field_regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9d]{7,}$",
+      "regex_description": "",
+      "field_min_length": 1,
+      "field_max_length": 100,
+      "position_H": 1,
+      "position_V": 7
+    },
+    {
+      "field_type": "phone",
+      "field_label": "Phone",
+      "field_name": "phoneNumber",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "field_regex": "",
+      "regex_description": "",
+      "field_min_length": 11,
+      "field_max_length": 100,
+      "position_H": 1,
+      "position_V": 8
+    },
+    {
+      "field_type": "text",
+      "field_label": "Zip Code",
+      "field_name": "zipcode",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "field_regex": "^\\d{5}$|(^\\d{5}-\\d{4}$)",
+      "regex_description": "\"Please enter a valid zip code\".",
+      "field_min_length": 1,
+      "field_max_length": 100,
+      "position_H": 1,
+      "position_V": 9,
+      "place_holder": "33011"
+    },
+    {
+      "field_type": "checkbox",
+      "field_label": "Yes, I want to receive the newsletter by email",
+      "field_name": "advertisement",
+      "status": "Active",
+      "basic": true,
+      "field_required": false,
+      "regex_description": "",
+      "position_H": 1,
+      "position_V": 10,
+      "field_type_name": "",
+      "subplatform": "",
+      "url": ""
+    },
+    {
+      "field_type": "checkbox",
+      "field_label": "I have read and agree to the MyCooler   <u>Terms of Use</u>  and  <u>Privacy Policy</u> , which describe how the information I provide may be used",
+      "field_name": "termsAndConditionsRewardsUSA",
+      "status": "Active",
+      "basic": true,
+      "field_required": true,
+      "regex_description": "",
+      "position_H": 1,
+      "position_V": 11,
+      "field_type_name": "termsAndConditions",
+      "subplatform": "MyCooler",
+      "platform": "Rewards_USA",
+      "url": "https://www.mycooler.com/en/terms-conditions.html"
+    },
+    {
+      "field_type": "checkbox",
+      "field_label": "Yes, I consent to MyCooler and its affiliates using my Personal Information to provide me with product and marketing information by email and other electronic means",
+      "field_name": "privacy_policy",
+      "status": "Inactive",
+      "basic": true,
+      "field_required": true,
+      "regex_description": "",
+      "position_H": 1,
+      "position_V": 12,
+      "field_type_name": "",
+      "subplatform": "",
+      "url": "https://www.mycooler.com/en/privacy-policy.html"
+    },
+    {
+      "field_type": "checkbox",
+      "field_label": "Push Notifications",
+      "field_name": "push_opt_in",
+      "status": "Inactive",
+      "basic": false,
+      "field_required": false,
+      "regex_description": "",
+      "field_type_name": "",
+      "subplatform": "",
+      "url": ""
+    },
+    {
+      "field_type": "checkbox",
+      "field_label": "SMS Notifications",
+      "field_name": "sms_opt_in",
+      "status": "Inactive",
+      "basic": false,
+      "field_required": false,
+      "regex_description": "",
+      "field_type_name": "",
+      "subplatform": "",
+      "url": ""
+    },
+    {
+      "field_type": "text",
+      "field_label": "Origin Product OwnerId",
+      "field_name": "origin_product_OwnerId",
+      "status": "Active",
+      "basic": false,
+      "field_required": false,
+      "field_regex": "",
+      "field_min_length": 1,
+      "field_max_length": 100
+    },
+    {
+      "field_required": true,
+      "field_label": "Agent",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "agent",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Origin Url",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "origin_url",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Platform",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "platform",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_type": "text",
+      "field_label": "Program",
+      "field_name": "program",
+      "status": "Active",
+      "basic": false,
+      "field_required": false,
+      "field_regex": "",
+      "regex_description": "",
+      "field_min_length": 1,
+      "field_max_length": 100
+    },
+    {
+      "field_required": true,
+      "field_label": "Origin",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "origin",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Country",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "country",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_label": "Create SSO",
+      "field_name": "create_sso",
+      "field_type": "checkbox",
+      "field_required": false,
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Migration Tier",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "migration_tier",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Migration Points",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "migration_points",
+      "field_type": "number",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Rewards Platform Id",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "rewards_platform_id",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Rewards Program Id",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "rewards_program_id",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Signup Campaign",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "signup_campaign",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Registration Device Id",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "registration_device_id",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Registration Device Model",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "registration_device_model",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Registration Device Platform",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "registration_device_platform",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Registration Device OS",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "registration_device_os",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Locale",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "locale",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_label": "Is Active",
+      "field_name": "is_active",
+      "field_type": "checkbox",
+      "field_required": true,
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_required": true,
+      "field_label": "Origin Platform Type",
+      "field_max_length": 100,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "origin_platform_type",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_type": "text",
+      "field_label": "User",
+      "field_name": "user",
+      "status": "Active",
+      "basic": false,
+      "field_required": false,
+      "field_regex": "",
+      "regex_description": "",
+      "field_min_length": 1,
+      "field_max_length": 100
+    },
+    {
+      "field_required": false,
+      "field_label": "Address",
+      "field_max_length": 200,
+      "field_min_length": 1,
+      "field_regex": "",
+      "field_name": "address",
+      "field_type": "text",
+      "status": "Active",
+      "basic": false
+    },
+    {
+      "field_type": "select",
+      "field_label": "favoriteBeer",
+      "field_name": "Favorite_Beer",
+      "status": "Inactive",
+      "basic": false,
+      "field_required": false,
+      "regex_description": "",
+      "field_items": [
+        {
+          "value": "corona ",
+          "order": 1
+        },
+        {
+          "value": "Modelo especial",
+          "order": 2
+        },
+        {
+          "value": "Negra Modelo",
+          "order": 3
+        },
+        {
+          "value": "Modelo Noche Especial",
+          "order": 4
+        },
+        {
+          "value": "Stella Atrois",
+          "order": 5
+        },
+        {
+          "value": "corona 6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "field_type": "checkbox",
+      "field_label": "TerminosCondiciones",
+      "field_name": "TerminoCondicionesLegend",
+      "status": "Inactive",
+      "basic": false,
+      "field_required": false,
+      "regex_description": "",
+      "field_type_name": "termsAndConditions",
+      "subplatform": "MyCooler",
+      "url": "https://www.google.com/"
+    },
+    {
+      "field_type": "select",
+      "field_label": "Color Favorito",
+      "field_name": "Color Favorito",
+      "status": "Inactive",
+      "basic": false,
+      "field_required": false,
+      "regex_description": "",
+      "field_items": [
+        {
+          "value": "",
+          "order": 1
+        },
+        {
+          "value": "rojo",
+          "order": 2
+        },
+        {
+          "value": "verde",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "field_label": "Email Newsletter Notifications",
+      "field_name": "email_opt_in",
+      "field_type": "checkbox",
+      "field_required": false,
+      "status": "Active",
+      "basic": false,
+      "regex_description": ""
+    },
+    {
+      "field_label": "Push Notifications",
+      "field_name": "push_opt_in",
+      "field_type": "checkbox",
+      "field_required": false,
+      "status": "Active",
+      "basic": false,
+      "regex_description": ""
+    },
+    {
+      "field_label": "SMS Notifications",
+      "field_name": "sms_opt_in",
+      "field_type": "checkbox",
+      "field_required": false,
+      "status": "Active",
+      "basic": false,
+      "regex_description": ""
+    }
+  ]
+}
